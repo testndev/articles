@@ -2,12 +2,12 @@
 
 ![](../img/100-test-logiciel-title-min.svg)
 
-|                    | le « test » logiciel : 4 définitions                  |
-| ------------------ | ----------------------------------------------------- |
-| _Auteur_           | Alhusaine NEMER – [test'n'dev](https://testndev.com/) |
-| _Date_             | 03/06/2022                                            |
-| _Version_ | 1.1.0                                                 |
-| _Licence_| <a href="#licence"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> |
+|           | le « test » logiciel : 4 définitions                                                                       |
+| --------- | ---------------------------------------------------------------------------------------------------------- |
+| _Auteur_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/)                                                      |
+| _Date_    | 03/06/2022                                                                                                 |
+| _Version_ | 1.1.1                                                                                                      |
+| _Licence_ | <a href="#licence"><img alt="by-nc-nd" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> |
 
 ---
 
@@ -29,7 +29,7 @@
 
 ## Introduction
 
-Définir un mot peut paraitre comme étant un exercice facile, et je vais m'y atteler aujourd'hui. Le mot que j'ai choisi est le suivant : «  **test**  », mais dans le domaine spécifique du logiciel. Et bien sûr, dans cet article, je vais m'occuper de sa définition en langue française. Vous comprendrez facilement pourquoi cet article ne sera pas traduit en l'état en anglais. J'omets sciemment l'article (défini ou indéfini) devant cette locution.
+Définir un mot peut paraitre comme étant un exercice facile, et je vais m'y atteler aujourd'hui. Le mot que j'ai choisi est le suivant : « **test** », mais dans le domaine spécifique du logiciel. Et bien sûr, dans cet article, je vais m'occuper de sa définition en langue française. Vous comprendrez facilement pourquoi cet article ne sera pas traduit en l'état en anglais. J'omets sciemment l'article (défini ou indéfini) devant cette locution.
 
 Cet article parlera particulièrement à mes collègues francophones qui interviennent de près ou de loin dans la cycle de vie de solutions logicielles (conception/développement/maintenance). Il intéressera aussi les profils de management, vente et support client de produits logiciels.
 
@@ -265,7 +265,8 @@ Officiellement, ce terme connaissait déjà 3 définitions différentes, et j'ai
 
 Cette polysémie est renforcée en français face à d'autres langues qui connaissent 2 écritures possibles, en fonction du sens : « test » pour les procédures et actions distinguables et énumérables, « testing/Testen/testning » pour le processus et la notion abstraite.
 
-Se pose alors la question : **comment réduire cette ambiguïté, en français** ? Faut-il inventer un nom verbal pour le terme « test », pour distinguer rapidement le sens ? Faut-il franciser « _testing_ » ? Faut-il se forcer à écrire « le test » et « le Test » ? Ou bien faut-il s'obliger à toujours adjoindre à « test(s) » d'autres termes qui précisent le sens voulu, et ainsi refuser systématiquement une « phrase », un titre qui se limiterait à un seul terme : « test » ?
+Se pose alors la question : **comment réduire cette ambiguïté, en français** ? 
+Faut-il inventer un nom verbal pour le terme « test », pour distinguer rapidement le sens ? Faut-il franciser « _testing_ » ? Faut-il se forcer à écrire « le test » et « le Test » ? Ou bien faut-il s'obliger à toujours adjoindre à « test(s) » d'autres termes qui précisent le sens voulu, et ainsi refuser systématiquement une « phrase », un titre qui se limiterait à un seul terme : « test » ?
 
 ---
 
@@ -273,19 +274,34 @@ Se pose alors la question : **comment réduire cette ambiguïté, en français**
 
 _Licence_
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> Cet article est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International</a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> 
+
+Cet article est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International</a>
 
 
 ---
 
 _Crédits :_
 
-Je tiens à remercier Jennifer Chaufaud pour la relecture de ce long article.
+Je tiens à remercier [Jennifer Chaufaud](https://www.linkedin.com/in/jennifer-chaufaud-752007126) et [Marc Hage Chahine](https://www.linkedin.com/in/marc-hage-chahine/) pour la relecture de ce long article.
 
-_Photos/images :_
+---
 
-- Tasse (mesure) : [https://upload.wikimedia.org/wikipedia/commons/2/27/Simple\_Measuring\_Cup.jpg](https://upload.wikimedia.org/wikipedia/commons/2/27/Simple_Measuring_Cup.jpg)
-- Tasse (café) : [https://www.publicdomainpictures.net/pictures/60000/velka/coffee-cup-and-beans-1379232745fgz.jpg](https://www.publicdomainpictures.net/pictures/60000/velka/coffee-cup-and-beans-1379232745fgz.jpg)
-- opera (patisserie) : [https://upload.wikimedia.org/wikipedia/commons/b/b7/Op%C3%A9ra-1775964.jpg](https://upload.wikimedia.org/wikipedia/commons/b/b7/Op%C3%A9ra-1775964.jpg)
-- opera Carmen : [Prudent-Louis\_Leray\_-\_Poster\_for\_the\_première\_of\_Georges\_Bizet's\_Carmen.jpg (6536×8944) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/d/d4/Prudent-Louis_Leray_-_Poster_for_the_premi%C3%A8re_of_Georges_Bizet%27s_Carmen.jpg)
+_Crédits photos :_
 
+- tasse, unité de mesure : 
+  - "A simple plastic measuring cup, capable of holding the volume one cup" (*anonyme*)
+  - https://en.wikipedia.org/wiki/Measuring_cup#/media/File:Simple_Measuring_Cup.jpg
+- la tasse de café: 
+  - “Coffee Cup And Beans”, par *George Hodan*
+  - https://www.publicdomainpictures.net/en/view-image.php?image=54554&picture=coffee-cup-and-beans
+- opéra (patisserie) : 
+  - "Opéra", par *takedahrs*
+  - https://fr.wikipedia.org/wiki/Fichier:Op%C3%A9ra-1775964.jpg
+- opéra Carmen : 
+  - "Poster for the première of Georges Bizet's Carmen", par *Prudent-Louis Leray*
+  - https://commons.wikimedia.org/wiki/File:Prudent-Louis_Leray_-_Poster_for_the_premi%C3%A8re_of_Georges_Bizet%27s_Carmen.jpg
+
+_Crédits illustrations :_
+- illustration du titre _le « test » logiciel : 4 définitions_ :
+  - basée sur une photographie du mot "définition" dans un dictionnaire, par *Alhusaine NEMER* 
