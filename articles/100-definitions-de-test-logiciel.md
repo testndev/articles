@@ -1,26 +1,31 @@
-![](../img/100-test-logiciel-title.svg)
+# le « test » logiciel : 4 définitions
+
+![](../img/100-test-logiciel-title-min.svg)
 
 |                    | le « test » logiciel : 4 définitions                  |
 | ------------------ | ----------------------------------------------------- |
 | _Auteur_           | Alhusaine NEMER – [test'n'dev](https://testndev.com/) |
 | _Date_             | 03/06/2022                                            |
-| _Version / statut_ | 1.0.0                                                 |
+| _Version_ | 1.1.0                                                 |
+| _Licence_| <a href="#licence"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> |
 
-----
+---
 
-_Table des matières_
+- [le « test » logiciel : 4 définitions](#le--test--logiciel--4-définitions)
+  - [Introduction](#introduction)
+  - [Pourquoi définir « test logiciel » ?](#pourquoi-définir--test-logiciel--)
+  - [Polysémie de « test logiciel »](#polysémie-de--test-logiciel-)
+  - [Que trouve-t-on dans le dictionnaire ?](#que-trouve-t-on-dans-le-dictionnaire-)
+  - [Que trouve-t-on sur Wikipédia ?](#que-trouve-t-on-sur-wikipédia-)
+  - [Définitions de « test logiciel » par CFTL/ISTQB](#définitions-de--test-logiciel--par-cftlistqb)
+  - [Synthèse des définitions trouvées](#synthèse-des-définitions-trouvées)
+  - [4 définitions en 4 niveaux](#4-définitions-en-4-niveaux)
+  - [Analogie avec le sondage d'opinion](#analogie-avec-le-sondage-dopinion)
+  - [Et par rapport à d'autres langues ?](#et-par-rapport-à-dautres-langues-)
+  - [Conclusion](#conclusion)
 
-- [Introduction](#introduction)
-- [Pourquoi définir « test logiciel » ?](#pourquoi-définir--test-logiciel--)
-- [Polysémie de « test logiciel »](#polysémie-de--test-logiciel-)
-- [Que trouve-t-on dans le dictionnaire ?](#que-trouve-t-on-dans-le-dictionnaire-)
-- [Que trouve-t-on sur Wikipédia ?](#que-trouve-t-on-sur-wikipédia-)
-- [Définitions de « test logiciel » par CFTL/ISTQB](#définitions-de--test-logiciel--par-cftlistqb)
-- [Synthèse des définitions trouvées](#synthèse-des-définitions-trouvées)
-- [4 définitions en 4 niveaux](#4-définitions-en-4-niveaux)
-- [Analogie avec le sondage d'opinion](#analogie-avec-le-sondage-dopinion)
-- [Et par rapport à d'autres langues ?](#et-par-rapport-à-dautres-langues-)
-- [Conclusion](#conclusion)
+---
+
 
 ## Introduction
 
@@ -254,13 +259,22 @@ Dans cet article, nous avons croisé 4 définitions pour le terme « test » dan
 - Le test est un **essai**
 - Le test est une **procédure** à suivre
 - Le test est un **processus** de vérification/validation
-- Le test est un **ensemble**  **d'activités** et de notions qui permettent la recherche d'informations sur la qualité du système conçu / développé ou maintenu.
+- Le test est un **ensemble d'activités** et de notions qui permettent la recherche d'informations sur la qualité du système conçu / développé ou maintenu.
 
 Officiellement, ce terme connaissait déjà 3 définitions différentes, et j'ai donc proposé cette quatrième définition, plus abstraite.
 
 Cette polysémie est renforcée en français face à d'autres langues qui connaissent 2 écritures possibles, en fonction du sens : « test » pour les procédures et actions distinguables et énumérables, « testing/Testen/testning » pour le processus et la notion abstraite.
 
-Se pose alors la question : **comment réduire cette ambiguïté, en français **? Faut-il inventer un nom verbal pour le terme « test », pour distinguer rapidement le sens ? Faut-il franciser « _testing_ » ? Faut-il se forcer à écrire « le test » et « le Test » ? Ou bien faut-il s'obliger à toujours adjoindre à « test(s) » d'autres termes qui précisent le sens voulu, et ainsi refuser systématiquement une « phrase », un titre qui se limiterait à un seul terme : « test » ?
+Se pose alors la question : **comment réduire cette ambiguïté, en français** ? Faut-il inventer un nom verbal pour le terme « test », pour distinguer rapidement le sens ? Faut-il franciser « _testing_ » ? Faut-il se forcer à écrire « le test » et « le Test » ? Ou bien faut-il s'obliger à toujours adjoindre à « test(s) » d'autres termes qui précisent le sens voulu, et ainsi refuser systématiquement une « phrase », un titre qui se limiterait à un seul terme : « test » ?
+
+---
+
+<a id="licence"></a>
+
+_Licence_
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> Cet article est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International</a>
+
 
 ---
 
@@ -274,3 +288,4 @@ _Photos/images :_
 - Tasse (café) : [https://www.publicdomainpictures.net/pictures/60000/velka/coffee-cup-and-beans-1379232745fgz.jpg](https://www.publicdomainpictures.net/pictures/60000/velka/coffee-cup-and-beans-1379232745fgz.jpg)
 - opera (patisserie) : [https://upload.wikimedia.org/wikipedia/commons/b/b7/Op%C3%A9ra-1775964.jpg](https://upload.wikimedia.org/wikipedia/commons/b/b7/Op%C3%A9ra-1775964.jpg)
 - opera Carmen : [Prudent-Louis\_Leray\_-\_Poster\_for\_the\_première\_of\_Georges\_Bizet's\_Carmen.jpg (6536×8944) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/d/d4/Prudent-Louis_Leray_-_Poster_for_the_premi%C3%A8re_of_Georges_Bizet%27s_Carmen.jpg)
+
