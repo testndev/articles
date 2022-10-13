@@ -1,12 +1,12 @@
 # le « test » logiciel : 4 définitions
 
-![](../img/100-test-logiciel-title-min.svg)
+![](../img/100-test-logiciel-title.svg.png)
 
 |           | le « test » logiciel : 4 définitions                                                                       |
 | --------- | ---------------------------------------------------------------------------------------------------------- |
 | _Auteur_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/)                                                      |
 | _Date_    | 03/06/2022                                                                                                 |
-| _Version_ | 1.1.1                                                                                                      |
+| _Version_ | 1.1.3                                                                                                      |
 | _Licence_ | <a href="#licence"><img alt="by-nc-nd" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> |
 
 ---
@@ -124,7 +124,7 @@ En cherchant un peu, nous tombons sur la page « [_Test (informatique)_](https:/
 
 La première chose que l'on peut remarquer, c'est la mention de « normes » que certaines instances (IEEE, ISTQB) proposent. Dans cette section « définition », la première définition du « test » qui est donnée par cet article Wikipédia est la suivante :
 
-> "Un test est un ensemble de cas à tester (état de l'objet à tester avant exécution du test, actions ou données en entrée, valeurs ou observations attendues, et état de l'objet après exécution), éventuellement accompagné d'une procédure d'exécution (séquence d'actions à exécuter). Il est lié à un objectif__."
+> "Un test est un ensemble de cas à tester (état de l'objet à tester avant exécution du test, actions ou données en entrée, valeurs ou observations attendues, et état de l'objet après exécution), éventuellement accompagné d'une procédure d'exécution (séquence d'actions à exécuter). Il est lié à un objectif."
 
 Cette (première) définition est un peu plus longue que celles données dans les dictionnaires généralistes. Les 4 paragraphes suivants de ce chapitre « définition » vont être liés à ce sens. Le dernier paragraphe évoque un autre sens avec la notion de « l'activité de test ».
 
@@ -283,7 +283,7 @@ Cet article est mise à disposition selon les termes de la <a rel="license" href
 
 _Crédits :_
 
-Je tiens à remercier [Jennifer Chaufaud](https://www.linkedin.com/in/jennifer-chaufaud-752007126) et [Marc Hage Chahine](https://www.linkedin.com/in/marc-hage-chahine/) pour la relecture de ce long article.
+Je tiens à remercier [Jennifer Chaufaud](https://www.linkedin.com/in/jennifer-chaufaud-752007126) et [Marc Hage Chahine](https://www.linkedin.com/in/marc-hage-chahine/) pour la relecture de cet article.
 
 ---
 
