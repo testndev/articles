@@ -4,7 +4,7 @@
 
 |           | le « test » logiciel : 4 définitions                                                                       |
 | --------- | ---------------------------------------------------------------------------------------------------------- |
-| _Auteur_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/)                                                      |
+| _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/)                                                      |
 | _Date_    | 13/05/2023                                                                                                 |
 | _Version_ | 0.1                                                                                                        |
 | _Licence_ | <a href="#licence"><img alt="by-nc-nd" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> |
@@ -44,11 +44,29 @@ There is many articles that compare web-app test automation frameworks (especial
 | Open-source & supported/developped by... | Cypress        | BrowserStack | Microsoft               | Community |
  
 
-### Trend on NPM
+### Trend on the NPM packages
 
-As for 13/05/2013, from [npm trends](https://npmtrends.com/cypress-vs-nightwatch-vs-playwright-vs-selenium-webdriver), we can see the popularity of each tool, by number of weekly downloads from NPM. 
+From [npm trends](https://npmtrends.com/cypress-vs-nightwatch-vs-playwright-vs-selenium-webdriver), we can see the popularity of each tool, by number of weekly downloads from NPM. 
 
-![](../img/300-trend.png)
+#### last week
+As for 13/05/2013, we have:
+
+| 🔵 Cypress | 🔴 Selenium | 🟢 Playwright | 🟠 Nightwatch |
+| --------- | ---------- | ------------ | ------------ |
+| > 4.600k  | > 1.900k   | > 1.300k     | > 180k       |
+
+
+#### Last year
+
+![](../img/300/npmtrends.cy-bw-pw-se.last-1y.png)
+> NPM weekly downloads of each package (cypress / nightwatch / playwright / selenium-webdriver), over the past year [^1] 
+
+#### History, last 5 years
+
+We can see in the graph below the rapid rise of the "Playwright" framework from 2020.
+
+![](../img/300/npmtrends.cy-bw-pw-se.last-5y.png)
+> same over the past 5 years 
 
 
 
@@ -63,5 +81,31 @@ As for 13/05/2013, from [npm trends](https://npmtrends.com/cypress-vs-nightwatch
 
 ----
 
-[^1]:  30/04/13, cf. https://npmtrends.com/cypress-vs-nightwatch-vs-playwright-vs-selenium-webdriver
+
+---
+
+<a id="licence"></a>
+
+_Licence_
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> 
+
+Cet article est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International</a>
+
+
+---
+
+_Credits :_
+
+...
+
+---
+
+_Photo Credits :_
+
+- ...
+  
+
+_Illustrations Credits :_
+- [^1]:  30/04/13, cf. https://npmtrends.com/cypress-vs-nightwatch-vs-playwright-vs-selenium-webdriver
     
