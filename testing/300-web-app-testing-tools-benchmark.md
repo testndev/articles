@@ -2,17 +2,29 @@
 
 ![](https://github.com/testndev/web-app-testing-tools-benchmark/raw/main/doc/header-image.png)
 
-|           | le « test » logiciel : 4 définitions                                                                       |
+|           | Benchmark of web-applications testing tools                                                                |
 | --------- | ---------------------------------------------------------------------------------------------------------- |
 | _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/)                                                      |
 | _Date_    | 13/05/2023                                                                                                 |
-| _Version_ | 0.1                                                                                                        |
+| _Version_ | 0.2                                                                                                        |
 | _Licence_ | <a href="#licence"><img alt="by-nc-nd" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> |
 
 ---
 
 - [Benchmark of web-applications testing tools](#benchmark-of-web-applications-testing-tools)
   - [Introduction](#introduction)
+  - [Quick comparison of the 4 compared tools](#quick-comparison-of-the-4-compared-tools)
+  - [Popularity](#popularity)
+    - [Trend on the NPM packages](#trend-on-the-npm-packages)
+      - [last week](#last-week)
+      - [Last year](#last-year)
+      - [History, last 5 years](#history-last-5-years)
+    - [Trend on Github ... 🚧](#trend-on-github--)
+    - [Trend on Google search ... 🚧](#trend-on-google-search--)
+  - [Technical comparison](#technical-comparison)
+  - [Installation 🚧](#installation-)
+  - [Performance 🚧](#performance-)
+  - [Conclusion](#conclusion)
 
 ---
 
@@ -33,15 +45,13 @@ This comparison is based on code hosted on this repository: [testndev/web-app-te
 
 There is many articles that compare web-app test automation frameworks (especially Selenium vs Cypress vs Playwright since 2022), presenting their features, trade-offs, etc. You can read for example ["Which web testing tool should i use?"](https://automationpanda.com/2023/04/24/which-web-testing-tool-should-i-use) article, written 24/04/2023 by [Andrew Knight](https://twitter.com/automationpanda).
 
-### Quick table
+## Popularity
 
-| aspect                                   | Cypress        | Nighwatch    | Playwright              | Selenium  |
-| ---------------------------------------- | -------------- | ------------ | ----------------------- | --------- |
-| Other than JS/TS?                        | No             | No           | Yes (C#, Java, Python)  | Yes, many |
-| NPM weekly downloads  [^1]               | > 4.600k       | > 180k       | > 1.300k                | > 1.900k  |
-| Github stars                             | > 43k          | > 11k        | > 50k                   | > 26k     |
-| Protocol                                 | Inside Browser | WebDriver    | > CDP (debug protocols) | WebDriver |
-| Open-source & supported/developped by... | Cypress        | BrowserStack | Microsoft               | Community |
+| aspect                    | Cypress  | Nighwatch | Playwright | Selenium |
+| ------------------------- | -------- | --------- | ---------- | -------- |
+| NPM weekly downloads [^1] | > 4.600k | > 180k    | > 1.300k   | > 1.900k |
+| Github stars              | > 43k    | > 11k     | > 50k      | > 26k    |
+
  
 
 ### Trend on the NPM packages
@@ -70,6 +80,42 @@ We can see in the graph below the rapid rise of the "Playwright" framework from 
 
 
 
+### Trend on Github ... 🚧
+
+
+> ⚠️ to be completed
+
+
+
+### Trend on Google search ... 🚧
+
+
+> ⚠️ to be completed
+
+
+
+## Technical comparison
+
+
+| aspect                                   | Cypress        | Nighwatch    | Playwright              | Selenium  |
+| ---------------------------------------- | -------------- | ------------ | ----------------------- | --------- |
+| Other than JS/TS?                        | No             | No           | Yes (C#, Java, Python)  | Yes, many |
+| Protocol                                 | Inside Browser | WebDriver    | > CDP (debug protocols) | WebDriver |
+| Open-source & supported/developped by... | Cypress        | BrowserStack | Microsoft               | Community |
+ 
+> ⚠️ to be completed
+
+
+## Installation 🚧
+
+> ⚠️ to be completed
+
+
+
+## Performance 🚧
+
+> ⚠️ to be completed
+
 ## Conclusion
 
 > ⚠️ to be completed
@@ -89,9 +135,10 @@ We can see in the graph below the rapid rise of the "Playwright" framework from 
 _Licence_
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> 
+ 
 
-Cet article est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International</a>
-
+This article is licensed under the terms of the 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">__Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)__</a> License
 
 ---
 
