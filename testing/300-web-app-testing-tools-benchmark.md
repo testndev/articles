@@ -2,12 +2,12 @@
 
 ![](https://github.com/testndev/web-app-testing-tools-benchmark/raw/main/doc/header-image.png)
 
-|           | Benchmark of web-applications testing tools                                                                |
-| --------- | ---------------------------------------------------------------------------------------------------------- |
-| _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/)                                                      |
-| _Date_    | 13/05/2023                                                                                                 |
-| _Version_ | 0.2                                                                                                        |
-| _Licence_ | <a href="#licence"><img alt="by-nc-nd" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> |
+|           | Benchmark of web-applications testing tools           |
+| --------- | ----------------------------------------------------- |
+| _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/) |
+| _Date_    | 17/05/2023                                            |
+| _Version_ | 0.3                                                   |
+| _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                |
 
 ---
 
@@ -35,7 +35,11 @@
 
 ## Introduction
 
-In this article, we will compare [Cypress.io](https://cypress.io/) *vs* [Nightwatch.js](https://nightwatchjs.org) *vs* [Playwright](https://playwright.dev/) *vs* [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/), all in their [Node.js](https://nodejs.org) versions.
+In this article, we will compare some of popular tools used for web testing automation. We will focus on **open-source** tools, 
+
+
+
+ [Cypress.io](https://cypress.io/) *vs* [Nightwatch.js](https://nightwatchjs.org) *vs* [Playwright](https://playwright.dev/) *vs* [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/), all in their [Node.js](https://nodejs.org) versions.
 
 Indeed, in this article, and to be fair in the comparison, we will take Javacript/TypeScript version of Playwright and Selenium.
 
@@ -47,24 +51,23 @@ There is many articles that compare web-app test automation frameworks (especial
 
 ## Popularity
 
-| aspect                    | Cypress  | Nighwatch | Playwright | Selenium |
-| ------------------------- | -------- | --------- | ---------- | -------- |
-| NPM weekly downloads [^1] | > 4.600k | > 180k    | > 1.300k   | > 1.900k |
-| Github stars              | > 43k    | > 11k     | > 50k      | > 26k    |
+| aspect                    | Cypress  | Selenium | Playwright | Nighwatch |
+| ------------------------- | -------- | -------- | ---------- | --------- |
+| NPM weekly downloads [^1] | > 4.600k | > 1.900k | > 1.300k   | > 180k    |
+| Github stars              | > 43k    | > 26k    | > 50k      | > 11k     |
+| Followers on Twitter      | > 21k    | >23k     | > 9k       | > 3k      |
 
- 
 
 ### Trend on the NPM packages
 
 From [npm trends](https://npmtrends.com/cypress-vs-nightwatch-vs-playwright-vs-selenium-webdriver), we can see the popularity of each tool, by number of weekly downloads from NPM. 
 
 #### last week
-As for 13/05/2013, we have:
+As for 13/05/2023, we have:
 
 | 🔵 Cypress | 🔴 Selenium | 🟢 Playwright | 🟠 Nightwatch |
 | --------- | ---------- | ------------ | ------------ |
 | > 4.600k  | > 1.900k   | > 1.300k     | > 180k       |
-
 
 #### Last year
 
@@ -82,13 +85,29 @@ We can see in the graph below the rapid rise of the "Playwright" framework from 
 
 ### Trend on Github ... 🚧
 
+Comparison of number of stars on Github:
 
-> ⚠️ to be completed
+- [nightwatchjs/nightwatch](https://github.com/nightwatchjs/nightwatch)
+- [cypress-io/cypress](https://github.com/cypress-io/cypress)
+- [microsoft/playwright](https://github.com/microsoft/playwright)
+- [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium)
 
+![](../img/300/github-trends.png)
+
+> source: https://www.github-trends.com/
+
+Please note that:
+- [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) is the repo for the Selenium "umbrella project", covering not only "test" automation. And this repository correspond not only JavaScript implementation. 
 
 
 ### Trend on Google search ... 🚧
 
+
+Interest over time, for each of this tools.
+
+![](../img/300/google-trend-2018-now.png)
+
+> source: https://trends.google.com/trends/explore?cat=32&date=2018-01-01%202023-05-17&q=playwright,cypress,selenium%20js,nightwatch,webdriverio&hl=en
 
 > ⚠️ to be completed
 
