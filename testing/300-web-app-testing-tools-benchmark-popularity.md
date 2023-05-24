@@ -1,20 +1,12 @@
 
 # Popularity of the 4 web-app. testing tools
  
+  - [Trend on the NPM packages](#trend-on-the-npm-packages)
+    - [Last year](#last-year)
+    - [History, last 5 years](#history-last-5-years)
+  - [Trend on GitHub](#trend-on-github)
+  - [Trend on Google Search](#trend-on-google-search)
 
- | indicator                           | Cypress | Selenium | Playwright | Nightwatch |
- | ----------------------------------- | ------- | -------- | ---------- | ---------- |
- | NPM weekly downloads [^1]           | 4908680 | 2088040  | 1304640    | 180000     |
- | Github stars                        | 43434   | 26651    | 51509      | 11370      |
- | Followers on Twitter                | 21000   | 23000    | 9000       | 3000       |
- | Interest over time on Google Trends | 84,71   | 2,65     | 26,29      | 1,71       |
-
-
-
-
-![](../img/300/relative-popularity-of-tools.png)
-
-> as per end of may 2023, this graph shows the relative popularity of each tool, according to the previous indicators (NPM downloads, Github stars, Twitter followers, Google Trends). 
 
 ## Trend on the NPM packages
 
@@ -51,12 +43,10 @@ From [npm trends](https://npmtrends.com/cypress-vs-nightwatch-vs-playwright-vs-s
 
 ### History, last 5 years
 
-We can see in the graph below the rapid rise of the "Playwright" framework from 2020.
+We can see in the graph below the rapid rise of the "Playwright" framework since 2020.
 
 ![](../img/300/npmtrends.cy-bw-pw-se.last-5y.png)
 > same over the past 5 years 
-
-
 
 ## Trend on GitHub
 

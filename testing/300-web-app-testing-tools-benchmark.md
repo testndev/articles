@@ -13,14 +13,8 @@
 
 - [Benchmark of web-applications testing tools](#benchmark-of-web-applications-testing-tools)
   - [Introduction](#introduction)
-  - [Quick comparison of the 4 compared tools](#quick-comparison-of-the-4-compared-tools)
-  - [Popularity](#popularity)
-    - [Trend on the NPM packages](#trend-on-the-npm-packages)
-      - [last week](#last-week)
-      - [Last year](#last-year)
-      - [History, last 5 years](#history-last-5-years)
-    - [Trend on GitHub](#trend-on-github)
-    - [Trend on Google Search](#trend-on-google-search)
+  - [Quick presentation of the compared tools](#quick-presentation-of-the-compared-tools)
+  - [Popularity of the 4 tools](#popularity-of-the-4-tools)
   - [Technical comparison](#technical-comparison)
   - [Installation 🚧](#installation-)
   - [Performance 🚧](#performance-)
@@ -30,28 +24,6 @@
 ---
 
 
-
-> ⚠️ to be completed
-
-## Popularity
- 
-
- | indicator                           | Cypress | Selenium | Playwright | Nightwatch |
- | ----------------------------------- | ------- | -------- | ---------- | ---------- |
- | NPM weekly downloads [^1]           | 4908680 | 2088040  | 1304640    | 180000     |
- | Github stars                        | 43434   | 26651    | 51509      | 11370      |
- | Followers on Twitter                | 21000   | 23000    | 9000       | 3000       |
- | Interest over time on Google Trends | 84,71   | 2,65     | 26,29      | 1,71       |
-
-
-
-
-![](../img/300/relative-popularity-of-tools.png)
-
-> as per end of may 2023, this graph shows the relative popularity of each tool, according to the previous indicators (NPM downloads, Github stars, Twitter followers, Google Trends). 
-
-
-See more details in ["popularity" sub-page](./300-web-app-testing-tools-benchmark-popularity.md).
 ## Introduction
 
 In this article, we will compare some of popular tools used for web testing automation. 
@@ -71,14 +43,36 @@ We will begin with 4 tools (in alphabetical order):
 
 > Indeed, in this article, and to be fair in the comparison, we will take JavaScript/TypeScript versions of Playwright and Selenium.
 
-We will use our code hosted on [`testndev/web-app-testing-tools-benchmark`](https://github.com/testndev/web-app-testing-tools-benchmark/) repository for our technical benchmark.
-
 ## Quick presentation of the compared tools
 
 > ⚠️ to be completed
 
-## Quick comparison of the 4 compared tools
 
+## Popularity of the 4 tools
+
+TL;DR:
+- **Cypress** is today the **most popular tool**, among the 4
+- **Playwright** is gradually **gaining popularity** (see [trends on NPM/GitHub/Google "fame" indicators](./300-web-app-testing-tools-benchmark-popularity.md))
+- **Selenium** remains popular, but has **serious competitors**
+- Nightwatch seems to be less popular than the 3 others
+
+To have an overview of "popularity" of each tool, we will use 4 indicators retrieved on NPM, GitHub, Twitter and Google.
+
+ As per end of may 2023:
+
+ | indicator                                   | Cypress | Selenium | Playwright | Nightwatch |
+ | ------------------------------------------- | ------- | -------- | ---------- | ---------- |
+ | Number of weekly downloads on **NPM**  [^1] | 4908680 | 2088040  | 1304640    | 180000     |
+ | Number of stars on **GitHub**               | 43434   | 26651    | 51509      | 11370      |
+ | Number of followers on **Twitter**          | 21000   | 23000    | 9000       | 3000       |
+ | Interest over time on **Google** Trends     | 84,71   | 2,65     | 26,29      | 1,71       |
+
+
+![](../img/300/relative-popularity-of-tools.png)
+
+> this graph shows the relative popularity of each tool, according to the previous indicators (NPM downloads, Github stars, Twitter followers, Google Trends). 
+
+See more details in ["popularity" sub-page](./300-web-app-testing-tools-benchmark-popularity.md).
 
 
 ## Technical comparison
@@ -98,8 +92,11 @@ We will use our code hosted on [`testndev/web-app-testing-tools-benchmark`](http
 > ⚠️ to be completed
 
 
-
 ## Performance 🚧
+
+
+We will use our code hosted on [`testndev/web-app-testing-tools-benchmark`](https://github.com/testndev/web-app-testing-tools-benchmark/) repository for our technical benchmark.
+
 
 > ⚠️ to be completed
 
