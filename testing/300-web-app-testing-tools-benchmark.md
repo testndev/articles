@@ -5,8 +5,8 @@
 |           | Benchmark of web-applications testing tools           |
 | --------- | ----------------------------------------------------- |
 | _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/) |
-| _Date_    | 17/05/2023                                            |
-| _Version_ | 0.4                                                   |
+| _Date_    | 24/05/2023                                            |
+| _Version_ | 0.5                                                   |
 | _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                |
 
 ---
@@ -78,11 +78,11 @@ See more details in ["popularity" sub-page](./300-web-app-testing-tools-benchmar
 ## Technical comparison
 
 
-| aspect                                   | Cypress        | Nighwatch    | Playwright              | Selenium  |
-| ---------------------------------------- | -------------- | ------------ | ----------------------- | --------- |
-| Other than JS/TS?                        | No             | No           | Yes (C#, Java, Python)  | Yes, many |
-| Protocol                                 | Inside Browser | WebDriver    | > CDP (debug protocols) | WebDriver |
-| Open-source & supported/developped by... | Cypress        | BrowserStack | Microsoft               | Community |
+| aspect                                   | Cypress        | Nighwatch    | Playwright             | Selenium  |
+| ---------------------------------------- | -------------- | ------------ | ---------------------- | --------- |
+| Other than JS/TS?                        | No             | No           | Yes (C#, Java, Python) | Yes, many |
+| Protocol                                 | Inside Browser | WebDriver    | CDP (debug protocols)  | WebDriver |
+| Open-source & supported/developped by... | Cypress        | BrowserStack | Microsoft              | Community |
  
 > ⚠️ to be completed
 
