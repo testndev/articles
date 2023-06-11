@@ -69,7 +69,7 @@ To have an overview of "popularity" of each tool, we will use 4 indicators retri
 
 
 ![](../img/300/relative-popularity-of-tools.png)
-
+ 
 > this graph shows the relative popularity of each tool, according to the previous indicators (NPM downloads, Github stars, Twitter followers, Google Trends). 
 
 See more details in ["popularity" sub-page](./300-web-app-testing-tools-benchmark-popularity.md).
