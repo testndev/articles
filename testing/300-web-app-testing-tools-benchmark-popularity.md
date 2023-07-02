@@ -21,15 +21,17 @@ On [npm](https://www.npmjs.com) Registry, and for each package, we can take the 
 | **Nightwatch.js**                                        | [`nightwatch`](https://www.npmjs.com/package/nightwatch)                 |
 | **Playwright Test** (Playwright Test runner, JS version) | [`@playwright/test`](https://www.npmjs.com/package/@playwright/test)     |
 | **Selenium** (JS version)                                | [`selenium-webdriver`](https://www.npmjs.com/package/selenium-webdriver) |
+| **WebdriverIO** (JS version)                             | [`webdriverio`](https://www.npmjs.com/package/webdriverio)               |
 
-As for 04/06/2023, we have, for each package, on last 7 days:
+As for 02/07/2023, we have, for each package, on last 7 days:
 
 | package name/url                                                         | number of weekly downloads |
 | ------------------------------------------------------------------------ | -------------------------: |
-| [`cypress`](https://www.npmjs.com/package/cypress)                       |                `4.839.698` |
-| [`selenium-webdriver`](https://www.npmjs.com/package/selenium-webdriver) |                `2.013.031` |
-| [`@playwright/test`](https://www.npmjs.com/package/@playwright/test)     |                `1.994.496` |
-| [`nightwatch`](https://www.npmjs.com/package/nightwatch)                 |                  `179.653` |
+| [`cypress`](https://www.npmjs.com/package/cypress)                       |                  `4865643` |
+| [`@playwright/test`](https://www.npmjs.com/package/@playwright/test)     |                  `2140160` |
+| [`selenium-webdriver`](https://www.npmjs.com/package/selenium-webdriver) |                  `1864334` |
+| [`webdriverio`](https://www.npmjs.com/package/webdriverio)               |                  `1141885` |
+| [`nightwatch`](https://www.npmjs.com/package/nightwatch)                 |                   `174739` |
 
 
 Thats good, but we can have a better view of the popularity of each tool, by comparing them on the same graph. And see progression over time.
@@ -39,14 +41,15 @@ On this site, we can see the popularity of each tool, by number of weekly downlo
 
 Before looking at graphs, let's see the evolution of each tool, compared to last year.
 
-### Compared to last year, same period
+### Evolution compared to last year
 
-| package name         | 5 june 2022 | 4 june 2023 | evolution |
+| package name         | 3 july 2022 | 1 july 2023 | evolution |
 | -------------------- | ----------: | ----------: | --------: |
-| `@playwright/test`   |   `610.008` | `1.994.496` | **+227%** |
-| `cypress`            | `3.973.052` | `4.839.698` |      +22% |
-| `selenium-webdriver` | `2.594.117` | `2.013.031` |      -22% |
-| `nightwatch`         |   `195.832` |   `179.653` |       -8% |
+| `@playwright/test`   |    `629646` |   `2140160` | **+240%** |
+| `cypress`            |   `3673636` |   `4865643` |      +32% |
+| `webdriverio`        |    `924956` |   `1141885` |      +23% |
+| `nightwatch`         |    `171522` |    `179653` |       +2% |
+| `selenium-webdriver` |   `2395860` |   `2013031` |      -22% |
 
  
 We can see in the graphs below:
@@ -56,12 +59,22 @@ We can see in the graphs below:
 
 ### NPM trend - graphs
 
-| period                | npm trend graph                                                                                     |
-| --------------------- | --------------------------------------------------------------------------------------------------- |
-| over the past year    | ![1 Year](../img/300/NPMtrends-playwrighttest.cypress.nightwatch.selenium-webdriver-1_Year.png)     |
-| over the past 2 years | ![2 Years](../img/300/NPMtrends-playwrighttest.cypress.nightwatch.selenium-webdriver-2_Years.png)   |
-| over the past 5 years | ![5 Years](../img/300/NPMtrends-playwrighttest.cypress.nightwatch.selenium-webdriver-5_Years.png)   |
-| since beginning       | ![All time](../img/300/NPMtrends-playwrighttest.cypress.nightwatch.selenium-webdriver-All_time.png) |
+Comparison between those 5  NPM packages: 
+- [@playwright/test](https://www.npmjs.com/package/@playwright/test)
+- [cypress](https://www.npmjs.com/package/cypress)
+- [nightwatch](https://www.npmjs.com/package/nightwatch)
+- [selenium-webdriver](https://www.npmjs.com/package/selenium-webdriver)
+- [webdriverio](https://www.npmjs.com/package/webdriverio)
+
+Graphs copied from [npm trends](https://www.npmtrends.com/@playwright/test-vs-cypress-vs-nightwatch-vs-selenium-webdriver-vs-webdriverio)
+
+| period                | npm trend graph                                                                                                 |
+| --------------------- | --------------------------------------------------------------------------------------------------------------- |
+| over the past year    | ![1 Year](../img/300/NPMtrends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-1_Year.png)     |
+| over the past 2 years | ![2 Years](../img/300/NPMtrends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-2_Years.png)   |
+| over the past 5 years | ![5 Years](../img/300/NPMtrends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-5_Years.png)   |
+| since beginning       | ![All time](../img/300/NPMtrends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-All_time.png) |
+
 
  
 ## Trend on GitHub
