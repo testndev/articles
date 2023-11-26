@@ -66,7 +66,7 @@ Comparison between those 5  NPM packages:
 - [selenium-webdriver](https://www.npmjs.com/package/selenium-webdriver)
 - [webdriverio](https://www.npmjs.com/package/webdriverio)
 
-Graphs copied from [npm trends](https://www.npmtrends.com/@playwright/test-vs-cypress-vs-nightwatch-vs-selenium-webdriver-vs-webdriverio)
+Graphs copied from [npm trends](https://www.npmtrends.com/@playwright/test-vs-cypress-vs-nightwatch-vs-selenium-webdriver-vs-webdriverio) the 27/11/2023.
 
 | period                | npm trend graph                                                                                                 |
 | --------------------- | --------------------------------------------------------------------------------------------------------------- |
