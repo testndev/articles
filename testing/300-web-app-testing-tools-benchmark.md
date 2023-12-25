@@ -34,12 +34,13 @@ We will focus on tools having those characteristics:
 - with implementation possible in TypeScript 
 - **mature** and quiet popular
 
-We will begin with 4 tools (in alphabetical order): 
+We will begin with 5 tools (in alphabetical order): 
 
 1. [Cypress.io](https://cypress.io/)                                       
 2. [Nightwatch.js](https://nightwatchjs.org)                              
 3. [Playwright](https://playwright.dev/)                                  
 4. [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
+5. [WebdriverIO](https://webdriver.io/)
 
 > Indeed, in this article, and to be fair in the comparison, we will take JavaScript/TypeScript versions of Playwright and Selenium.
 
@@ -48,7 +49,7 @@ We will begin with 4 tools (in alphabetical order):
 > ⚠️ to be completed
 
 
-## Popularity of the 4 tools
+## Popularity of the 5 tools
 
 TL;DR:
 - **Cypress** is today the **most popular tool**, among the 4
@@ -114,6 +115,8 @@ You can read for example:
 - [Cypress vs Selenium vs Playwright vs Puppeteer speed comparison](https://rag0g.medium.com/cypress-vs-selenium-vs-playwright-vs-puppeteer-speed-comparison-73fd057c2ae9)
   > (in english, 04/03/2021 by [*Giovanni Rago*](https://rag0g.medium.com/))
 
+
+https://nightwatchjs.org/guide/comparison-with-leading-frameworks.html
 
 
 ## Conclusion
