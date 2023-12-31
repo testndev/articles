@@ -64,7 +64,6 @@ See more details in ["popularity" sub-page](./300-web-app-testing-tools-benchmar
 
 ## Technical comparison
 
-
 | aspect                                   | Cypress        | Nighwatch      | Playwright             | Selenium  | WebdriverIO    |
 | ---------------------------------------- | -------------- | -------------- | ---------------------- | --------- | -------------- |
 | Other than JS/TS?                        | No, only JS/TS | No, only JS/TS | Yes (C#, Java, Python) | Yes, many | No, only JS/TS |

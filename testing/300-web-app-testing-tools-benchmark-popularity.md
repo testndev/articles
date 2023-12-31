@@ -37,7 +37,7 @@ On [npm](https://www.npmjs.com) Registry, and for each package, we can take the 
  | ![](https://avatars.githubusercontent.com/u/12559275?s=24&v=4) | **Nightwatch.js**                                        | [`nightwatch`](https://www.npmjs.com/package/nightwatch)                 |
  | ![](https://avatars.githubusercontent.com/u/89237858?s=24&v=4) | **Playwright Test** (Playwright Test runner, JS version) | [`@playwright/test`](https://www.npmjs.com/package/@playwright/test)     |
  | ![](https://avatars.githubusercontent.com/u/983927?s=24&v=4)   | **Selenium** (JS version)                                | [`selenium-webdriver`](https://www.npmjs.com/package/selenium-webdriver) |
- | ![](https://avatars.githubusercontent.com/u/6512473?s=24&v=4)  | **WebdriverIO** (JS version)                             | [`webdriverio`](https://www.npmjs.com/package/webdriverio)               |
+ | ![](https://avatars.githubusercontent.com/u/6512473?s=24&v=4)  | **WebdriverIO**                                          | [`webdriverio`](https://www.npmjs.com/package/webdriverio)               |
 
 As for 17/12/2023, we have, for each package, on last 7 days:
 
