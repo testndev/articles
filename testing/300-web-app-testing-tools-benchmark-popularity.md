@@ -7,6 +7,23 @@
   - [Trend on GitHub](#trend-on-github)
   - [Trend on Google Search](#trend-on-google-search)
 
+## Introduction
+
+In this section of "Benchmark of web-applications testing tools" article, we will compare **popularity** of the 5 tools chosen [above](../300-web-app-testing-tools-benchmark.html):
+
+1. [Cypress.io](https://cypress.io/)
+2. [Nightwatch.js](https://nightwatchjs.org)
+3. [Playwright](https://playwright.dev/)
+4. [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
+5. [WebdriverIO](https://webdriver.io/)
+
+## Methodology
+
+We will use several indicators to compare the popularity of those tools:
+- number of weekly downloads on NPM
+- number of stars on GitHub
+- interest over time on Google Search
+
 ## Trend on the NPM packages
 
 The Node.js versions of those tools are available as NPM packages. 

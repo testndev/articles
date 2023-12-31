@@ -102,7 +102,7 @@ You can read for example:
   > (in english, 04/03/2021 by [*Giovanni Rago*](https://rag0g.medium.com/))
 - [Comparison with leading frameworks (Nightwatch.js)](https://nightwatchjs.org/guide/comparison-with-leading-frameworks.html)
   > (in english, by [*Nightwatch.js*](https://nightwatchjs.org/))
-- 
+-  State of JS: https://2022.stateofjs.com/en-US/libraries/testing/ ?
 
 
 
