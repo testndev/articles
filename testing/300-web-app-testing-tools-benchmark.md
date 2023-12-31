@@ -5,8 +5,8 @@
 |           | Benchmark of web-applications testing tools           |
 | --------- | ----------------------------------------------------- |
 | _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/) |
-| _Date_    | 24/05/2023                                            |
-| _Version_ | 0.5                                                   |
+| _Date_    | 31/12/2023                                            |
+| _Version_ | 0.9                                                   |
 | _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                |
 
 ---
@@ -48,30 +48,16 @@ We will begin with 5 tools (in alphabetical order):
 
 > ⚠️ to be completed
 
-
 ## Popularity of the 5 tools
 
 TL;DR:
-- **Cypress** is today the **most popular tool**, among the 4
+- **Cypress** is today the **most popular tool**, among the 5
 - **Playwright** is gradually **gaining popularity** (see [trends on NPM/GitHub/Google "fame" indicators](./300-web-app-testing-tools-benchmark-popularity.md))
 - **Selenium** remains popular, but has **serious competitors**
-- Nightwatch seems to be less popular than the 3 others
+- WebdriverIO is in the 4th position 
+- Nightwatch seems to be less popular than the 4 others
 
-To have an overview of "popularity" of each tool, we will use 4 indicators retrieved on NPM, GitHub, Twitter and Google.
-
- As per end of may 2023:
-
- | indicator                                   | Cypress | Selenium | Playwright | Nightwatch |
- | ------------------------------------------- | ------- | -------- | ---------- | ---------- |
- | Number of weekly downloads on **NPM**  [^1] | 4908680 | 2088040  | 1304640    | 180000     |
- | Number of stars on **GitHub**               | 43434   | 26651    | 51509      | 11370      |
- | Number of followers on **Twitter**          | 21000   | 23000    | 9000       | 3000       |
- | Interest over time on **Google** Trends     | 84,71   | 2,65     | 26,29      | 1,71       |
-
-
-![](../img/300/relative-popularity-of-tools.png)
- 
-> this graph shows the relative popularity of each tool, according to the previous indicators (NPM downloads, Github stars, Twitter followers, Google Trends). 
+To have an overview of "popularity" of each tool, we will use indicators retrieved on NPM, GitHub and Google.
 
 See more details in ["popularity" sub-page](./300-web-app-testing-tools-benchmark-popularity.md).
 
@@ -79,11 +65,11 @@ See more details in ["popularity" sub-page](./300-web-app-testing-tools-benchmar
 ## Technical comparison
 
 
-| aspect                                   | Cypress        | Nighwatch    | Playwright             | Selenium  |
-| ---------------------------------------- | -------------- | ------------ | ---------------------- | --------- |
-| Other than JS/TS?                        | No             | No           | Yes (C#, Java, Python) | Yes, many |
-| Protocol                                 | Inside Browser | WebDriver    | CDP (debug protocols)  | WebDriver |
-| Open-source & supported/developped by... | Cypress        | BrowserStack | Microsoft              | Community |
+| aspect                                   | Cypress        | Nighwatch      | Playwright             | Selenium  | WebdriverIO    |
+| ---------------------------------------- | -------------- | -------------- | ---------------------- | --------- | -------------- |
+| Other than JS/TS?                        | No, only JS/TS | No, only JS/TS | Yes (C#, Java, Python) | Yes, many | No, only JS/TS |
+| Protocol                                 | Inside Browser | WebDriver      | CDP (debug protocols)  | WebDriver | WebDriver      |
+| Open-source & supported/developped by... | Cypress        | BrowserStack   | Microsoft              | Community | Community      |
  
 > ⚠️ to be completed
 
@@ -114,9 +100,11 @@ You can read for example:
   > (in french, 31/01/2023, by [*Jean-François Greffier*](https://linktr.ee/jfgreffier))
 - [Cypress vs Selenium vs Playwright vs Puppeteer speed comparison](https://rag0g.medium.com/cypress-vs-selenium-vs-playwright-vs-puppeteer-speed-comparison-73fd057c2ae9)
   > (in english, 04/03/2021 by [*Giovanni Rago*](https://rag0g.medium.com/))
+- [Comparison with leading frameworks (Nightwatch.js)](https://nightwatchjs.org/guide/comparison-with-leading-frameworks.html)
+  > (in english, by [*Nightwatch.js*](https://nightwatchjs.org/))
+- 
 
 
-https://nightwatchjs.org/guide/comparison-with-leading-frameworks.html
 
 
 ## Conclusion
