@@ -162,24 +162,52 @@ The "by date" view gives how many "stars" each tool has, at a given date.
 
 ## Trend on Google Search
 
-Interest[^2] over time, for each of this tools.
+Google offers "Google Trends" as a data exploration tool that shows what terms people are searching for on Google (search engine) in real time.
 
-![](../img/300/google-trend-2018-now.png)
+It can be used to measure the search interest in a particular topic, location, or language at a particular time.
 
-> source: https://trends.google.com/trends/explore?cat=32&date=2018-01-01%202023-05-17&q=playwright,cypress,selenium%20js,nightwatch,webdriverio&hl=en
+We can use it to compare the popularity of each tool. 
 
-> ⚠️ to be completed
-
-----
-
-
-_Notes :_
- 
-- [^2]: "_Interest over time_" number is defined by Google by: 
+For this, Google Trends offers a "interest over time" metric, that shows the popularity of a search term over time.  "_Interest over time_" number is defined by Google by: 
   > Numbers represent search interest relative to the highest point on the chart for the given region and time.
   > - a value of 100 is the peak popularity for the term. 
   > - a value of 50 means that the term is half as popular. 
   > - a score of 0 means there was not enough data for this term.
+
+
+We gave to "Google Trends" the following search terms to Google Trends: `Cypress`, `Nightwatch`, `Playwright`, `Selenium JS` and `WebdriverIO`.
+> note: the "`Selenium JS`" search term is used to filter results on Selenium JavaScript version, and not on other languages.
+
+And we filtered results with the parameters:
+- location: **worldwide**
+- time: from 01/01/2022 to 31/12/2023
+- category: "Computers & Electronics > Software"
+- web search
+
+
+
+The 2 below graphs represent "interest over time", for each of those tools, over the years 2022 and 2023 (excluding last 2 weeks of december).
+
+We can see in the graphs above:
+- Of these 5 frameworks, **`Cypress`** is the **most searched for** on Google, in 2022 and 2023. 
+  - Average value for "_Interest over time_" is more than 70.
+- the second one is **"`Playwright`"**  comes in second place. We can observe that its interest is growing over time ("_Interest over time_" was in [10 ; 30] range in 2022, and in [20 ; 50] range in 2023).
+- The 3 other (`Nightwatch`, `Selenium JS` and `WebdriverIO`) seem to be much less "searched" on Google ("_Interest over time_" maximal value is 10).
+
+| 2022                                                      | 2023                                                      |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| ![](../img/300/interest_over_time-google_trends-2022.png) | ![](../img/300/interest_over_time-google_trends-2023.png) |
+
+> source: https://trends.google.com/trends/explore?cat=32&date=2022-01-12%202023-12-31&q=Cypress,Nightwatch,Playwright,Selenium%20JS,WebdriverIO&hl=en
+>
+> captured on 31/12/2023
+
+ ----
+
+
+_Notes :_
+ 
+
 
 
 - [n-1]: [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) is the repo for the Selenium "umbrella project", covering not only "test" automation. And this repository correspond not only JavaScript implementation. 
