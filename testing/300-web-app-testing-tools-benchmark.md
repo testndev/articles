@@ -14,7 +14,7 @@
 - [Benchmark of web-applications testing tools](#benchmark-of-web-applications-testing-tools)
   - [Introduction](#introduction)
   - [Quick presentation of the compared tools](#quick-presentation-of-the-compared-tools)
-  - [Popularity of the 4 tools](#popularity-of-the-4-tools)
+  - [Popularity of the 5 tools](#popularity-of-the-5-tools)
   - [Technical comparison](#technical-comparison)
   - [Installation 🚧](#installation-)
   - [Performance 🚧](#performance-)
@@ -61,6 +61,9 @@ To have an overview of "popularity" of each tool, we will use indicators retriev
 
 See more details in ["popularity" sub-page](./300-web-app-testing-tools-benchmark-popularity.md).
 
+The table below gives you an overview of the relative popularity of these 5 tools, with a few indicators and their evolution:
+
+![](../img/300/relative-popularity-summary.png)
 
 ## Technical comparison
 
