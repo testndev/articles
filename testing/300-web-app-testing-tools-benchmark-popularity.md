@@ -36,7 +36,7 @@ We will use several indicators to compare the popularity of those tools:
 
 The table below gives you an overview of the relative popularity of these 5 tools, with a few indicators and their evolution:
 
-![](../img/300/relative-popularity-summary.png)
+[![](../img/300/2023-relative-popularity-opensource-webapp-testing-tools-summary.png)](../img/300/2023-relative-popularity-opensource-webapp-testing-tools-summary.png)
 
 ## Trend on the NPM packages
 

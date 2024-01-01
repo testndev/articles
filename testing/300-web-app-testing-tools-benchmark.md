@@ -63,7 +63,7 @@ See more details in ["popularity" sub-page](./300-web-app-testing-tools-benchmar
 
 The table below gives you an overview of the relative popularity of these 5 tools, with a few indicators and their evolution:
 
-![](../img/300/relative-popularity-summary.png)
+[![](../img/300/2023-relative-popularity-opensource-webapp-testing-tools-summary.png)](./300-web-app-testing-tools-benchmark-popularity.md)
 
 ## Technical comparison
 
