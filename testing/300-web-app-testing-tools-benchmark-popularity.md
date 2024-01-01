@@ -1,11 +1,19 @@
-
 # Popularity of the 5 web-app. testing tools
- 
+
+- [Popularity of the 5 web-app. testing tools](#popularity-of-the-5-web-app-testing-tools)
+  - [Introduction](#introduction)
+  - [Methodology](#methodology)
+  - [Summary](#summary)
   - [Trend on the NPM packages](#trend-on-the-npm-packages)
-    - [Last year](#last-year)
-    - [History, last 5 years](#history-last-5-years)
+    - [Evolution compared to last year](#evolution-compared-to-last-year)
+    - [NPM trend - graphs](#npm-trend---graphs)
   - [Trend on GitHub](#trend-on-github)
+    - [👨‍💻 Number of contributors](#-number-of-contributors)
+    - [⭐ Number of Stars on GitHub](#-number-of-stars-on-github)
+      - ["Aligned timeline" view](#aligned-timeline-view)
+      - ["by date" view](#by-date-view)
   - [Trend on Google Search](#trend-on-google-search)
+
 
 ## Introduction
 
@@ -24,31 +32,30 @@ We will use several indicators to compare the popularity of those tools:
 - number of stars on GitHub
 - interest over time on Google Search
 
+## Summary
+
+The table below gives you an overview of the relative popularity of these 5 tools, with a few indicators and their evolution:
+
+![](../img/300/relative-popularity-summary.png)
+
 ## Trend on the NPM packages
 
 The Node.js versions of those tools are available as NPM packages. 
 
 On [npm](https://www.npmjs.com) Registry, and for each package, we can take the **number of weekly downloads** as an indicator of their popularity.
 
-
- |                                                                | Tool                                                     | npm Package name / URL                                                   |
- | -------------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------ |
- | ![](https://avatars.githubusercontent.com/u/8908513?s=24&v=4)  | **Cypress.io**                                           | [`cypress`](https://www.npmjs.com/package/cypress)                       |
- | ![](https://avatars.githubusercontent.com/u/12559275?s=24&v=4) | **Nightwatch.js**                                        | [`nightwatch`](https://www.npmjs.com/package/nightwatch)                 |
- | ![](https://avatars.githubusercontent.com/u/89237858?s=24&v=4) | **Playwright Test** (Playwright Test runner, JS version) | [`@playwright/test`](https://www.npmjs.com/package/@playwright/test)     |
- | ![](https://avatars.githubusercontent.com/u/983927?s=24&v=4)   | **Selenium** (JS version)                                | [`selenium-webdriver`](https://www.npmjs.com/package/selenium-webdriver) |
- | ![](https://avatars.githubusercontent.com/u/6512473?s=24&v=4)  | **WebdriverIO**                                          | [`webdriverio`](https://www.npmjs.com/package/webdriverio)               |
-
 As for 17/12/2023, we have, for each package, on last 7 days:
 
-|                                                                | package name/url     | number of weekly downloads | ratio / least downloaded |
-| -------------------------------------------------------------- | -------------------- | -------------------------: | -----------------------: |
-| ![](https://avatars.githubusercontent.com/u/8908513?s=24&v=4)  | `cypress`            |                  `5197350` |                      36× |
-| ![](https://avatars.githubusercontent.com/u/12559275?s=24&v=4) | `nightwatch`         |                   `142971` |                        1 |
-| ![](https://avatars.githubusercontent.com/u/89237858?s=24&v=4) | `@playwright/test`   |                  `2779815` |                      19× |
-| ![](https://avatars.githubusercontent.com/u/983927?s=24&v=4)   | `selenium-webdriver` |                  `1726049` |                      12× |
-| ![](https://avatars.githubusercontent.com/u/6512473?s=24&v=4)  | `webdriverio`        |                  `1142691` |                       8× |
+|                            |  **Cypress.io** <br/> ![](../img/icons/cy-48.png)  |   **Nightwatch.js** <br/> ![](../img/icons/nw-48.png)    |        **Playwright Test** <br/>  ![](../img/icons/pw-48.png)        |            **Selenium**  <br/>   ![](../img/icons/se-48.png)             |    **WebdriverIO**  <br/>   ![](../img/icons/wd-48.png)    |
+| -------------------------- | :------------------------------------------------: | :------------------------------------------------------: | :------------------------------------------------------------------: | :----------------------------------------------------------------------: | :--------------------------------------------------------: |
+| package name/url           | [`cypress`](https://www.npmjs.com/package/cypress) | [`nightwatch`](https://www.npmjs.com/package/nightwatch) | [`@playwright/test`](https://www.npmjs.com/package/@playwright/test) | [`selenium-webdriver`](https://www.npmjs.com/package/selenium-webdriver) | [`webdriverio`](https://www.npmjs.com/package/webdriverio) |
+| number of weekly downloads |                     `5197350`                      |                         `142971`                         |                              `2779815`                               |                                `1726049`                                 |                         `1142691`                          |
 
+- The most downloaded packages seems to be `cypress` framework, with more than 5 millions weekly downloads.
+- It's followed by `@playwright/test` framework with more than 2 millions weekly downloads.
+- The `selenium-webdriver` library is the third most downloaded package, with more than 1.7 millions weekly downloads.
+- The `webdriverio` testing framework is the fourth most downloaded package, with more than 1.1 millions weekly downloads.
+- While `nightwatch` framework is the less downloaded package, with less than 150k weekly downloads.
 
 Thats good, but we can have a better view of the popularity of each tool, by comparing them on the same graph. And see progression over time.
 
@@ -62,13 +69,13 @@ Before looking at graphs, let's see the evolution of each tool, compared to last
 
 Comparing downloads on last 7 days, between july 2022 and july 2023:
 
-|                                                                | package name         | 3 july 2022 |     | 1 july 2023 | evolution |
-| -------------------------------------------------------------- | -------------------- | ----------: | --- | ----------: | --------: |
-| ![](https://avatars.githubusercontent.com/u/8908513?s=24&v=4)  | `cypress`            |   `3673636` | →   |   `4865643` |      +32% |
-| ![](https://avatars.githubusercontent.com/u/12559275?s=24&v=4) | `nightwatch`         |    `171522` | →   |    `179653` |       +2% |
-| ![](https://avatars.githubusercontent.com/u/89237858?s=24&v=4) | `@playwright/test`   |    `629646` | →   |   `2140160` | **+240%** |
-| ![](https://avatars.githubusercontent.com/u/983927?s=24&v=4)   | `selenium-webdriver` |   `2395860` | →   |   `2013031` |      -22% |
-| ![](https://avatars.githubusercontent.com/u/6512473?s=24&v=4)  | `webdriverio`        |    `924956` | →   |   `1141885` |      +23% |
+|                             | package name         | 3 july 2022 |     | 1 july 2023 | evolution |
+| --------------------------- | -------------------- | ----------: | --- | ----------: | --------: |
+| ![](../img/icons/cy-48.png) | `cypress`            |   `3673636` | →   |   `4865643` |      +32% |
+| ![](../img/icons/nw-48.png) | `nightwatch`         |    `171522` | →   |    `179653` |       +2% |
+| ![](../img/icons/pw-48.png) | `@playwright/test`   |    `629646` | →   |   `2140160` | **+240%** |
+| ![](../img/icons/se-48.png) | `selenium-webdriver` |   `2395860` | →   |   `2013031` |      -22% |
+| ![](../img/icons/wd-48.png) | `webdriverio`        |    `924956` | →   |   `1141885` |      +23% |
 
  
 We can see in the graphs below:
@@ -100,13 +107,13 @@ Like for all GitHub repositories, we can take several indicators as an indicator
 
 List of repositories:
 
-|                                                                | Tool          | GitHub repository name                                                                         |
-| -------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------- |
-| ![](https://avatars.githubusercontent.com/u/8908513?s=24&v=4)  | Cypress.io    | https://github.com/**[`cypress-io/cypress`](https://github.com/cypress-io/cypress)**           |
-| ![](https://avatars.githubusercontent.com/u/12559275?s=24&v=4) | Nightwatch.js | https://github.com/**[`nightwatchjs/nightwatch`](https://github.com/nightwatchjs/nightwatch)** |
-| ![](https://avatars.githubusercontent.com/u/89237858?s=24&v=4) | Playwright    | https://github.com/**[`microsoft/playwright`](https://github.com/microsoft/playwright)**       |
-| ![](https://avatars.githubusercontent.com/u/983927?s=24&v=4)   | Selenium      | https://github.com/**[`SeleniumHQ/selenium`](https://github.com/SeleniumHQ/selenium)**         |
-| ![](https://avatars.githubusercontent.com/u/6512473?s=24&v=4)  | WebdriverIO   | https://github.com/**[`webdriverio/webdriverio`](https://github.com/webdriverio/webdriverio)** |
+ | Tool          | GitHub repository name                                                                         |
+ | ------------- | ---------------------------------------------------------------------------------------------- |
+ | Cypress.io    | https://github.com/**[`cypress-io/cypress`](https://github.com/cypress-io/cypress)**           |
+ | Nightwatch.js | https://github.com/**[`nightwatchjs/nightwatch`](https://github.com/nightwatchjs/nightwatch)** |
+ | Playwright    | https://github.com/**[`microsoft/playwright`](https://github.com/microsoft/playwright)**       |
+ | Selenium      | https://github.com/**[`SeleniumHQ/selenium`](https://github.com/SeleniumHQ/selenium)**         |
+ | WebdriverIO   | https://github.com/**[`webdriverio/webdriverio`](https://github.com/webdriverio/webdriverio)** |
 
 There are several ways to compare the popularity of those tools on GitHub :
 
@@ -132,13 +139,11 @@ Please note that contributors can be:
 
 Comparison of number of contributors on GitHub (december 2023):
 
-|                                                                | Tool          | Number of contributors |
-| -------------------------------------------------------------- | ------------- | ---------------------: |
-| ![](https://avatars.githubusercontent.com/u/8908513?s=24&v=4)  | Cypress.io    |                    464 |
-| ![](https://avatars.githubusercontent.com/u/12559275?s=24&v=4) | Nightwatch.js |                    122 |
-| ![](https://avatars.githubusercontent.com/u/89237858?s=24&v=4) | Playwright    |                    488 |
-| ![](https://avatars.githubusercontent.com/u/983927?s=24&v=4)   | Selenium      |                    726 |
-| ![](https://avatars.githubusercontent.com/u/6512473?s=24&v=4)  | WebdriverIO   |                    522 |
+|                        |       **Cypress.io** <br/> ![](../img/icons/cy-48.png)        |           **Nightwatch.js** <br/> ![](../img/icons/nw-48.png)           |      **Playwright Test** <br/>  ![](../img/icons/pw-48.png)       |        **Selenium**  <br/>   ![](../img/icons/se-48.png)        |          **WebdriverIO**  <br/>   ![](../img/icons/wd-48.png)           |
+| ---------------------- | :-----------------------------------------------------------: | :---------------------------------------------------------------------: | :---------------------------------------------------------------: | :-------------------------------------------------------------: | :---------------------------------------------------------------------: |
+| GitHub repository      | [`cypress-io/cypress`](https://github.com/cypress-io/cypress) | [`nightwatchjs/nightwatch`](https://github.com/nightwatchjs/nightwatch) | [`microsoft/playwright`](https://github.com/microsoft/playwright) | [`SeleniumHQ/selenium`](https://github.com/SeleniumHQ/selenium) | [`webdriverio/webdriverio`](https://github.com/webdriverio/webdriverio) |
+| Number of contributors |                              464                              |                                   122                                   |                                488                                |                               726                               |                                   522                                   |
+
 
 Note on top contributors, for each tool, in last 12 months (Jan 1, 2022 – Dec 25, 2023):
 
@@ -209,7 +214,7 @@ We can see in the graphs above:
 - Of these 5 frameworks, **`Cypress`** is the **most searched for** on Google, in 2022 and 2023. 
   - Average value for "_Interest over time_" is more than 70.
 - the second one is **"`Playwright`"**  comes in second place. We can observe that its interest is growing over time ("_Interest over time_" was in [10 ; 30] range in 2022, and in [20 ; 50] range in 2023).
-- The 3 other (`Nightwatch`, `Selenium JS` and `WebdriverIO`) seem to be much less "searched" on Google ("_Interest over time_" maximal value is 10).
+- The 3 other (`Nightwatch`, `Selenium JS` and `WebdriverIO`) seem to be much less "searched" on Google ("_Interest over time_" maximal value is 20).
 
 | 2022                                                      | 2023                                                      |
 | --------------------------------------------------------- | --------------------------------------------------------- |
