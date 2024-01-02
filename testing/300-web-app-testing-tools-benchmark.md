@@ -5,8 +5,8 @@
 |           | Benchmark of web-applications testing tools           |
 | --------- | ----------------------------------------------------- |
 | _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/) |
-| _Date_    | 31/12/2023                                            |
-| _Version_ | 0.9                                                   |
+| _Date_    | 02/01/2024                                            |
+| _Version_ | 0.91                                                  |
 | _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                |
 
 ---
@@ -52,18 +52,18 @@ We will begin with 5 tools (in alphabetical order):
 
 TL;DR:
 - **Cypress** is today the **most popular tool**, among the 5
-- **Playwright** is gradually **gaining popularity** (see [trends on NPM/GitHub/Google "fame" indicators](./300-web-app-testing-tools-benchmark-popularity.md))
+- **Playwright** is gradually **gaining popularity** (see [trends on NPM/GitHub/Google "fame" indicators](./300-web-app-testing-tools-benchmark-popularity.html))
 - **Selenium** remains popular, but has **serious competitors**
 - WebdriverIO is in the 4th position 
 - Nightwatch seems to be less popular than the 4 others
 
 To have an overview of "popularity" of each tool, we will use indicators retrieved on NPM, GitHub and Google.
 
-See more details in ["popularity" sub-page](./300-web-app-testing-tools-benchmark-popularity.md).
+See more details in ["popularity" sub-page](./300-web-app-testing-tools-benchmark-popularity.html).
 
 The table below gives you an overview of the relative popularity of these 5 tools, with a few indicators and their evolution:
 
-[![](../img/300/2023-relative-popularity-opensource-webapp-testing-tools-summary.png)](./300-web-app-testing-tools-benchmark-popularity.md)
+[![](../img/300/2023-relative-popularity-opensource-webapp-testing-tools-summary.png)](./300-web-app-testing-tools-benchmark-popularity.html)
 
 ## Technical comparison
 
