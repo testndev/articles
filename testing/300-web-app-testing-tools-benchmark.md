@@ -26,27 +26,41 @@
 
 ## Introduction
 
-In this article, we will compare some of popular tools used for web testing automation. 
+In this article, I will compare some of **popular tools** used...
+- *in* software development of web applications, 
+- *for* testing purposes, 
+- *in order* to automaticaly control your web application in a browser and check its behaviour.
 
+I will try to be as objective as possible. It is not a "versus" article, not a "click bait" post, but a comparison of the characteristics, features and performance of each tool.
+
+### selection of tools
 We will focus on tools having those characteristics:
 - **open-source** tools
 - executable on [Node.js](https://nodejs.org) platform
-- with implementation possible in TypeScript 
-- **mature** and quiet popular
+- with possible implementation in TypeScript 
+- and **mature** and quiet popular
 
-We will begin with 5 tools (in alphabetical order): 
+We selected the following 5 tools: 
 
 1. [Cypress.io](https://cypress.io/)                                       
 2. [Nightwatch.js](https://nightwatchjs.org)                              
 3. [Playwright](https://playwright.dev/)                                  
-4. [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
+4. [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) (+ a JavaScript testing framework)
 5. [WebdriverIO](https://webdriver.io/)
 
-> Indeed, in this article, and to be fair in the comparison, we will take JavaScript/TypeScript versions of Playwright and Selenium.
+In this article, and to be fair in the comparison, we will take JavaScript/TypeScript versions of Playwright and Selenium.
 
 ## Quick presentation of the compared tools
 
-> ⚠️ to be completed
+In the table below, the official quick presentations of the 5 tools, as given on their respective websites:
+
+|                             | name                                                                    | presentation                                                                                                                                                                                                                                                                                                                                                                                     |
+| --------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![](../img/icons/cy-48.png) | [Cypress.io](https://www.cypress.io/app)                                | Test modern apps directly in your browser<br/> Build, test, and debug directly in your browser with a seamless developer experience that is loved by developers all around the world. Test your code, not your patience.<br/> With Cypress, you can easily create tests for your modern web applications, debug them visually, and automatically run them in your continuous integration builds. |
+| ![](../img/icons/nw-48.png) | [Nightwatch.js](https://nightwatchjs.org)                               | No-compromise test automation framework with a powerful set of tools to write, run and debug your tests across web and native mobile applications.                                                                                                                                                                                                                                               |
+| ![](../img/icons/pw-48.png) | [Playwright](https://playwright.dev/)                                   | Playwright enables reliable end-to-end testing for modern web apps.                                                                                                                                                                                                                                                                                                                              |
+| ![](../img/icons/se-48.png) | [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) | Selenium automates browsers. That's it! <br/> What you do with that power is entirely up to you. Primarily it is for automating web applications for testing purposes, but is certainly not limited to just that.                                                                                                                                                                                |
+| ![](../img/icons/wd-48.png) | [WebdriverIO](https://webdriver.io/)                                    | Next-gen browser and mobile automation test framework for Node.js                                                                                                                                                                                                                                                                                                                                |
 
 ## Popularity of the 5 tools
 
@@ -67,11 +81,11 @@ The table below gives you an overview of the relative popularity of these 5 tool
 
 ## Technical comparison
 
-| aspect                                   | Cypress        | Nighwatch      | Playwright             | Selenium  | WebdriverIO    |
-| ---------------------------------------- | -------------- | -------------- | ---------------------- | --------- | -------------- |
-| Other than JS/TS?                        | No, only JS/TS | No, only JS/TS | Yes (C#, Java, Python) | Yes, many | No, only JS/TS |
-| Protocol                                 | Inside Browser | WebDriver      | CDP (debug protocols)  | WebDriver | WebDriver      |
-| Open-source & supported/developped by... | Cypress        | BrowserStack   | Microsoft              | Community | Community      |
+| aspect                                   | Cypress        | Nighwatch      | Playwright             | Selenium  + | WebdriverIO    |
+| ---------------------------------------- | -------------- | -------------- | ---------------------- | ----------- | -------------- |
+| Other than JS/TS?                        | No, only JS/TS | No, only JS/TS | Yes (C#, Java, Python) | Yes, many   | No, only JS/TS |
+| Protocol                                 | Inside Browser | WebDriver      | CDP (debug protocols)  | WebDriver   | WebDriver      |
+| Open-source & supported/developped by... | Cypress        | BrowserStack   | Microsoft              | Community   | Community      |
  
 > ⚠️ to be completed
 
@@ -105,7 +119,8 @@ You can read for example:
 - [Comparison with leading frameworks (Nightwatch.js)](https://nightwatchjs.org/guide/comparison-with-leading-frameworks.html)
   > (in english, by [*Nightwatch.js*](https://nightwatchjs.org/))
 -  State of JS: https://2022.stateofjs.com/en-US/libraries/testing/ ?
-
+- "Selenium Vs … blog posts"
+  > in english, 09/01/2024, by [David Burns @AutomatedTester](https://twitter.com/automatedtester)
 
 
 
