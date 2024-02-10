@@ -29,7 +29,7 @@ In this article, I will compare some of **popular tools** used...
 
 - _in_ software development of web applications,
 - _for_ testing purposes,
-- _in order_ to automaticaly control your web application in a browser and check its behaviour.
+- _in order_ to automatically control your web application in a browser and check its behaviour.
 
 I will try to be as objective as possible. It is not a "versus" article, not a "click bait" post, but a comparison of the characteristics, features and performance of each tool.
 
@@ -64,7 +64,7 @@ In the table below, the official quick presentations of the 5 tools, as given on
 | ![](../img/icons/se-48.png) | [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) | Selenium **automates browsers**. That's it! <br/> What you do with that power is entirely up to you. Primarily it is for automating web applications for testing purposes, but is certainly not limited to just that.                                                                                                                                                                                    |
 | ![](../img/icons/wd-48.png) | [WebdriverIO](https://webdriver.io/)                                    | Next-gen browser and mobile automation **test framework** for Node.js                                                                                                                                                                                                                                                                                                                                    |
 
-### Selenium WebDriver
+### Selenium WebDriver?
 
 As you can see, Selenium WebDriver (JavaScript version and the other) is **not a test framework** by itself, contrary to the 4 others. It is (only) a tool to automate browsers. If we want to use it for web-app testing purposes, we will need to integrate it with a testing framework (like Mocha, Jest, etc.).
 
@@ -101,12 +101,14 @@ The table below gives you an overview of the relative popularity of these 5 tool
 The 5 tools are officially "open source". But what does it mean? According to the [Open Source Initiative](https://opensource.org/osd/), open source software is software that can be freely used, changed, and shared (in modified or unmodified form) by anyone. Open source software is made by many people, and distributed under licenses that comply with the Open Source Definition.
 
 Those 5 tools are distributed under the following licenses:
+
 - [Apache License, Version 2.0](https://opensource.org/license/apache-2-0/) for Playwright and Selenium
 - and [The MIT License](https://opensource.org/licenses/MIT) for Cypress, Nighwatch and WebdriverIO
 
 As other open source projects, those tools are developed by a community of contributors, and are often sponsored by companies.
 
 The fact that a tool is sponsored by a company can be:
+
 - a strong point 👍, as it can ensure the sustainability of the project, and the development of the tool
 - or a weak point 👎, if the company decides to change the license, or to stop the development of project
 
@@ -119,21 +121,24 @@ The table below gives you an overview of the licenses and sponsors of the 5 tool
 
 ### Notes for Cypress
 
-Cypress is developed by [Cypress.io](https://www.cypress.io/about-us), a US-abased company that offers a commercial product based on the open-source project.
+Cypress is developed by [Cypress.io](https://www.cypress.io/about-us), a US-based company that offers a commercial product based on the open-source project.
 
-### Playwright
+### Notes for Playwright
 
 Playwright is an open-source project, but it is also a copyrighted product of Microsoft Corporation.
-Playwright is developed in the *Developer Division* at Microsoft (which also develops Visual Studio Code, TypeScript, etc.).
-
-
+Playwright is developed in the _Developer Division_ at Microsoft (which also develops Visual Studio Code, TypeScript, etc.).
 
 ## Technical comparison
 
-| aspect                  | Cypress        | Nighwatch      | Playwright             | Selenium + | WebdriverIO        |
-| ----------------------- | -------------- | -------------- | ---------------------- | ---------- | ------------------ |
-| Other than JS/TS?       | No, only JS/TS | No, only JS/TS | Yes (C#, Java, Python) | Yes, many  | No, only JS/TS     |
-| Automation **Protocol** | Inside Browser | WebDriver      | CDP                    | WebDriver  | WebDriver (or CDP) |
+| aspect                                   | Cypress                      | Nighwatch      | Playwright             | Selenium + | WebdriverIO        |
+| ---------------------------------------- | ---------------------------- | -------------- | ---------------------- | ---------- | ------------------ |
+| Other than JS/TS?                        | No, only JS/TS               | No, only JS/TS | Yes (C#, Java, Python) | Yes, many  | No, only JS/TS     |
+| Automation **Protocol**                  | Inside Browser               | WebDriver      | CDP                    | WebDriver  | WebDriver (or CDP) |
+| **_Browsers support_**                   |                              |                |                        |            |                    |
+| Chromium family (Google Chrome, MS Edge) | Yes                          | Yes            | Yes                    | Yes        | Yes                |
+| Firefox family                           | Yes                          | Yes            | Yes                    | Yes        | Yes                |
+| Safari                                   | WebKit engine (experimental) | Yes            | WebKit engine          | Yes        | Yes                |
+| IE 11 (for old computers...)             | No                           | maybe?         | No                     | Yes        | maybe?             |
 
 ### Automation Protocol
 
