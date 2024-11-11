@@ -77,6 +77,8 @@ Comparing downloads on last 7 days, between july 2022 and july 2023:
 | ![](../img/icons/se-48.png) | `selenium-webdriver` |   `2395860` | →   |   `2013031` |      -22% |
 | ![](../img/icons/wd-48.png) | `webdriverio`        |    `924956` | →   |   `1141885` |      +23% |
 
+
+
  
 We can see in the graphs below:
 - **"`Cypress`" is still the most popular** framework, and keep growning.
@@ -87,14 +89,14 @@ We can see in the graphs below:
 
 ### NPM trend - graphs
 
-Graphs copied from [npm trends](https://www.npmtrends.com/@playwright/test-vs-cypress-vs-nightwatch-vs-selenium-webdriver-vs-webdriverio) the 25/12/2023.
+Graphs copied from [npm trends](https://www.npmtrends.com/@playwright/test-vs-cypress-vs-nightwatch-vs-selenium-webdriver-vs-webdriverio) the 11/11/2024:
 
-| period                | npm trend graph                                                                                                  |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| over the past year    | ![1 Year](../img/300/npm-trends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-1_year.png)     |
-| over the past 2 years | ![2 Years](../img/300/npm-trends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-2_years.png)   |
-| over the past 5 years | ![5 Years](../img/300/npm-trends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-5_years.png)   |
-| since beginning       | ![All time](../img/300/npm-trends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-all_time.png) |
+| period | npm trend graph  |
+| - | - |
+| over the past year | ![1 Year](../img/300/npm-trends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-1_year.png) | 
+| over the past 2 years | ![2 Years](../img/300/npm-trends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-2_years.png) | 
+| over the past 5 years | ![5 Years](../img/300/npm-trends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-5_years.png) | 
+| since beginning | ![All time](../img/300/npm-trends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-all_time.png) | 
 
 ## Trend on GitHub
 
@@ -220,7 +222,7 @@ We can see in the graphs above:
 | --------------------------------------------------------- | --------------------------------------------------------- |
 | ![](../img/300/interest_over_time-google_trends-2022.png) | ![](../img/300/interest_over_time-google_trends-2023.png) |
 
-> source: https://trends.google.com/trends/explore?cat=32&date=2022-01-12%202023-12-31&q=Cypress,Nightwatch,Playwright,Selenium%20JS,WebdriverIO&hl=en
+> source: https://trends.google.com/trends/explore?cat=32&date=2022-10-10%202024-10-10&q=Cypress,Nightwatch,Playwright,Selenium%20JS,WebdriverIO&hl=en
 >
 > captured on 31/12/2023
 

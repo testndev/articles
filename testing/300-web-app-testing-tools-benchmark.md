@@ -82,17 +82,17 @@ Of course, the popularity of a tool is not the only criterion to take into accou
 
 In the ["**popularity of the 5 web-app. testing tools**" sub-page](./300-web-app-testing-tools-benchmark-popularity.html), we compare the popularity of the 5 tools, using several indicators.
 
-> _TL;DR:_ as by end of 2023, the popularity of the 5 tools is as follows:
+> _TL;DR:_ as by november 2024, the popularity of the 5 tools is as follows:
 >
 > - **Cypress** is today the **most popular tool**, among the 5
-> - **Playwright** is gradually **gaining popularity** (see [trends on NPM/GitHub/Google "fame" indicators](./300-web-app-testing-tools-benchmark-popularity.html))
+> - **Playwright** is **gaining popularity** (see [trends on NPM/GitHub/Google "fame" indicators](./300-web-app-testing-tools-benchmark-popularity.html))
 > - **Selenium** remains popular, but has **serious competitors**
 > - WebdriverIO is in the 4th position
 > - Nightwatch seems to be less popular than the 4 others
 
 The table below gives you an overview of the relative popularity of these 5 tools, with a few indicators and their evolution:
 
-[![](../img/300/2023-relative-popularity-opensource-webapp-testing-tools-summary.png)](./300-web-app-testing-tools-benchmark-popularity.html)
+[![](../img/300/2024-11-11-relative-popularity-opensource-webapp-testing-tools-summary.jpg)](./300-web-app-testing-tools-benchmark-popularity.html)
 
 > Disclaimer: the following indicators are not exhaustive, and are only a snapshot of the popularity of the tools at the time of writing this article.
 
@@ -146,7 +146,7 @@ We see that the 5 tools use different automation protocols:
 
 - the standard [WebDriver](https://w3c.github.io/webdriver/), which is a W3C standard for browser automation.
 - [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/) or CDP. It's used by Playwright. It can be also used with WebdriverIO
-- for Cypress, it is not a protocol, but a library that runs inside the browser
+- for Cypress, it is not a protocol, but a library that runs inside the browser. It is not based on WebDriver.
 
 > ⚠️ to be completed
 
@@ -176,7 +176,8 @@ You can read for example:
   > (in english, 04/03/2021 by [_Giovanni Rago_](https://rag0g.medium.com/))
 - [Comparison with leading frameworks (Nightwatch.js)](https://nightwatchjs.org/guide/comparison-with-leading-frameworks.html)
   > (in english, by [_Nightwatch.js_](https://nightwatchjs.org/))
-- State of JS: https://2022.stateofjs.com/en-US/libraries/testing/ ?
+- [State of JavaScript 2023: Testing](https://2023.stateofjs.com/en-US/libraries/testing/#testing_ratios)
+  > (in english, by [_State of JS_](https://2023.stateofjs.com/))
 - ["Selenium Vs … blog posts"](https://www.selenium.dev/blog/2024/selenium-vs-blog-posts/)
   > in english, 09/01/2024, by [David Burns @AutomatedTester](https://twitter.com/automatedtester)
 
