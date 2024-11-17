@@ -5,7 +5,7 @@
 |           | Benchmark of web-applications testing tools           |
 | --------- | ----------------------------------------------------- |
 | _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/) |
-| _Date_    | 09/02/2024                                            |
+| _Date_    | 17/11/2024                                            |
 | _Version_ | 0.92                                                  |
 | _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                |
 
@@ -29,7 +29,7 @@ In this article, I will compare some of **popular tools** used...
 
 - _in_ software development of web applications,
 - _for_ testing purposes,
-- _in order_ to automatically control your web application in a browser and check its behaviour.
+- _in order_ to automatically control your web application in a browser and check its behavior.
 
 I will try to be as objective as possible. It is not a "versus" article, not a "click bait" post, but a comparison of the characteristics, features and performance of each tool.
 
@@ -64,7 +64,7 @@ In the table below, the official quick presentations of the 5 tools, as given on
 | ![](../img/icons/se-48.png) | [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) | Selenium **automates browsers**. That's it! <br/> What you do with that power is entirely up to you. Primarily it is for automating web applications for testing purposes, but is certainly not limited to just that.                                                                                                                                                                                    |
 | ![](../img/icons/wd-48.png) | [WebdriverIO](https://webdriver.io/)                                    | Next-gen browser and mobile automation **test framework** for Node.js                                                                                                                                                                                                                                                                                                                                    |
 
-### Selenium WebDriver?
+### Note about "Selenium WebDriver" in this comparison
 
 As you can see, Selenium WebDriver (JavaScript version and the other) is **not a test framework** by itself, contrary to the 4 others. It is (only) a tool to automate browsers. If we want to use it for web-app testing purposes, we will need to integrate it with a testing framework (like Mocha, Jest, etc.).
 
@@ -82,13 +82,12 @@ Of course, the popularity of a tool is not the only criterion to take into accou
 
 In the ["**popularity of the 5 web-app. testing tools**" sub-page](./300-web-app-testing-tools-benchmark-popularity.html), we compare the popularity of the 5 tools, using several indicators.
 
-> _TL;DR:_ as by november 2024, the popularity of the 5 tools is as follows:
->
-> - **Cypress** is today the **most popular tool**, among the 5
-> - **Playwright** is **gaining popularity** (see [trends on NPM/GitHub/Google "fame" indicators](./300-web-app-testing-tools-benchmark-popularity.html))
-> - **Selenium** remains popular, but has **serious competitors**
-> - WebdriverIO is in the 4th position
-> - Nightwatch seems to be less popular than the 4 others
+As by mid-November 2024, the popularity of the 5 tools is as follows:
+
+- **Cypress** was the most popular framework in recent years. It's now closely followed by **Playwright**, whose adoption is quickly growing since 2023.
+- Then, in terms of popularity, we have WebdriverIO.
+- Selenium WebDriver (as central part of framework) is still popular, but its popularity is slowly decreasing since 2022.
+- Nightwatch.js is the less used (downloaded) of the 5 tools.
 
 The table below gives you an overview of the relative popularity of these 5 tools, with a few indicators and their evolution:
 
@@ -96,7 +95,7 @@ The table below gives you an overview of the relative popularity of these 5 tool
 
 > Disclaimer: the following indicators are not exhaustive, and are only a snapshot of the popularity of the tools at the time of writing this article.
 
-## You said open source?
+## Community and Support
 
 The 5 tools are officially "open source". But what does it mean? According to the [Open Source Initiative](https://opensource.org/osd/), open source software is software that can be freely used, changed, and shared (in modified or unmodified form) by anyone. Open source software is made by many people, and distributed under licenses that comply with the Open Source Definition.
 
@@ -110,7 +109,7 @@ As other open source projects, those tools are developed by a community of contr
 The fact that a tool is sponsored by a company can be:
 
 - a strong point 👍, as it can ensure the sustainability of the project, and the development of the tool
-- or a weak point 👎, if the company decides to change the license, or to stop the development of project
+- or a weak point 👎, if the company decides to change its strategy, or to stop its support of the project
 
 The table below gives you an overview of the licenses and sponsors of the 5 tools:
 
@@ -130,6 +129,41 @@ Playwright is developed in the _Developer Division_ at Microsoft (which also dev
 
 ## Technical comparison
 
+| aspect                  | Cypress        | Nighwatch      | Playwright             | Selenium + | WebdriverIO        |
+| ----------------------- | -------------- | -------------- | ---------------------- | ---------- | ------------------ |
+| Other than JS/TS?       | No, only JS/TS | No, only JS/TS | Yes (C#, Java, Python) | Yes, many  | No, only JS/TS     |
+| Automation **Protocol** | Inside Browser | WebDriver      | CDP                    | WebDriver  | WebDriver (or CDP) |
+
+### Automation Protocol
+
+The 5 tools use different automation protocols:
+
+- the standard [WebDriver](https://w3c.github.io/webdriver/), which is a W3C standard for browser automation.
+- [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/) or CDP. It's used by Playwright. It can be also used with WebdriverIO
+- for Cypress, it is not a protocol, but a library that runs inside the browser. It is not based on WebDriver.
+
+|                             | name               | WebDriver    | CDP (Chrome DevTools Protocol) | Other             |
+| --------------------------- | ------------------ | ------------ | ------------------------------ | ----------------- |
+| ![](../img/icons/cy-48.png) | Cypress            | ⭕ no        | ⭕ no                          | 🟦 inside browser |
+| ![](../img/icons/nw-48.png) | Nightwatch         | 🟦 Yes       | ⭕ no                          |                   |
+| ![](../img/icons/pw-48.png) | Playwright         | ⭕ no        | 🟦 Yes                         |                   |
+| ![](../img/icons/se-48.png) | Selenium WebDriver | 🟦 Yes, only | ⭕ no                          |                   |
+| ![](../img/icons/wd-48.png) | WebdriverIO        | 🟦 Yes       | 🟦 Yes, possible for Chrome    |                   |
+
+### Cross-Browser Testing
+
+We will here discuss capabilities and limitations for cross-browser testing, for those 5 tools.
+
+#### Browsers support
+
+The 5 tools support automation on browsers based on the 3 main Web browsers engines (or rendering engines):
+
+| Engine                                                                                                   | Browsers Using This engine                                                                                                                                                          |
+| -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ ![](../img/icons/chromium-logo.png) **Blink**](<https://en.wikipedia.org/wiki/Blink_(browser_engine)>) | [**Google Chrome**](https://www.google.com/chrome/) and all other Chromium-based browsers, including [**Microsoft Edge**](https://www.microsoft.com/edge), Brave, Vivaldi, Opera... |
+| [ ![](../img/icons/gecko-icon.png) **Gecko**](<https://en.wikipedia.org/wiki/Gecko_(software)>)          | [**Firefox**](https://www.mozilla.org/firefox/)                                                                                                                                     |
+| [ ![](../img/icons/webkit-logo.png) **WebKit**](https://en.wikipedia.org/wiki/WebKit)                    | [Apple's **Safari**](https://www.apple.com/safari/) (+ GNOME Web, Konqueror, Orion)                                                                                                 |
+
 | aspect                                   | Cypress                      | Nighwatch      | Playwright             | Selenium + | WebdriverIO        |
 | ---------------------------------------- | ---------------------------- | -------------- | ---------------------- | ---------- | ------------------ |
 | Other than JS/TS?                        | No, only JS/TS               | No, only JS/TS | Yes (C#, Java, Python) | Yes, many  | No, only JS/TS     |
@@ -140,13 +174,10 @@ Playwright is developed in the _Developer Division_ at Microsoft (which also dev
 | Safari                                   | WebKit engine (experimental) | Yes            | WebKit engine          | Yes        | Yes                |
 | IE 11 (for old computers...)             | No                           | maybe?         | No                     | Yes        | maybe?             |
 
-### Automation Protocol
-
-We see that the 5 tools use different automation protocols:
-
-- the standard [WebDriver](https://w3c.github.io/webdriver/), which is a W3C standard for browser automation.
-- [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/) or CDP. It's used by Playwright. It can be also used with WebdriverIO
-- for Cypress, it is not a protocol, but a library that runs inside the browser. It is not based on WebDriver.
+- Cypress and Playwright support the Chromium family (Google Chrome, Microsoft Edge) and Firefox. Playwright also supports Safari (using WebKit engine).
+- Selenium WebDriver supports all the main browsers, including Safari and Internet Explorer 11.
+- WebdriverIO supports the main browsers, but not Safari (only experimental support).
+- Nightwatch.js supports the main browser
 
 > ⚠️ to be completed
 
