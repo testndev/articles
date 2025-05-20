@@ -5,8 +5,8 @@
 |           | Benchmark of web-applications testing tools           |
 | --------- | ----------------------------------------------------- |
 | _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/) |
-| _Date_    | 17/11/2024                                            |
-| _Version_ | 0.92                                                  |
+| _Date_    | 21/05/2025                                            |
+| _Version_ | 0.93                                                  |
 | _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                |
 
 ---
@@ -207,7 +207,7 @@ You can read for example:
   > (in english, 04/03/2021 by [_Giovanni Rago_](https://rag0g.medium.com/))
 - [Comparison with leading frameworks (Nightwatch.js)](https://nightwatchjs.org/guide/comparison-with-leading-frameworks.html)
   > (in english, by [_Nightwatch.js_](https://nightwatchjs.org/))
-- [State of JavaScript 2023: Testing](https://2023.stateofjs.com/en-US/libraries/testing/#testing_ratios)
+- [State of JavaScript 2024: Testing](https://2024.stateofjs.com/en-US/libraries/testing/#testing_ratios)
   > (in english, by [_State of JS_](https://2023.stateofjs.com/))
 - ["Selenium Vs … blog posts"](https://www.selenium.dev/blog/2024/selenium-vs-blog-posts/)
   > in english, 09/01/2024, by [David Burns @AutomatedTester](https://twitter.com/automatedtester)
