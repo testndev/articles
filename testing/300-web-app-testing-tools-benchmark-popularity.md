@@ -55,11 +55,10 @@ On [npm](https://www.npmjs.com) Registry, and for each package, we can take the 
 
 As for 25/05/2025, we have, for each package, on last 7 days:
 
-
-| Tool            | Package name                                                             | 19 May 2024 | 24 May 2025     | evolution |
-| --------------- | ------------------------------------------------------------------------ | ----------- | --------------- | --------- |
+| Tool            | Package name                                                             | 19 May 2024 |     24 May 2025 | evolution |
+| --------------- | ------------------------------------------------------------------------ | ----------: | --------------: | --------- |
 | Cypress.io      | [`cypress`](https://www.npmjs.com/package/cypress)                       | `5 305 893` | **`6 352 192`** | +20,7%    |
-| Nightwatch.js   | [`nightwatch`](https://www.npmjs.com/package/nightwatch)                 | ` 134 390`  | **`  183 956`** | +40,6%    |
+| Nightwatch.js   | [`nightwatch`](https://www.npmjs.com/package/nightwatch)                 |   `134 390` |   **`183 956`** | +40,6%    |
 | Playwright Test | [`@playwright/test`](https://www.npmjs.com/package/@playwright/test)     | `4 532 739` | **`8 834 168`** | +100,2%   |
 | Selenium        | [`selenium-webdriver`](https://www.npmjs.com/package/selenium-webdriver) | `1 848 423` | **`1 672 647`** | -11,9%    |
 | WebdriverIO     | [`webdriverio`](https://www.npmjs.com/package/webdriverio)               | `1 437 007` | **`1 827 595`** | +26,2%    |
