@@ -4,7 +4,7 @@
 | --------- | ------------------------------------------------------------------- |
 | _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/)               |
 | _Date_    | 25/05/2025                                                          |
-| _Version_ | 1.01                                                                |
+| _Version_ | 1.02                                                                |
 | _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                              |
 
 ---
