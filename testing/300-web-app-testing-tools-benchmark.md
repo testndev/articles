@@ -1,8 +1,8 @@
-# Benchmark of web-applications testing tools
+# Benchmark of 5 web-applications testing tools
 
 ![](https://github.com/testndev/web-app-testing-tools-benchmark/raw/main/doc/header-image.png)
 
-|           | Benchmark of web-applications testing tools           |
+|           | Benchmark of 5 web-applications testing tools         |
 | --------- | ----------------------------------------------------- |
 | _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/) |
 | _Date_    | 25/05/2025                                            |
@@ -92,9 +92,7 @@ As by mid-May 2025, the popularity of the 5 tools is as follows:
 
 > Disclaimer: the following indicators are not exhaustive, and are only a snapshot of the popularity of the tools at the time of writing this article.
 
-
 [![](../img/300/2025-05-25-relative-popularity-opensource-webapp-testing-tools-summary.1000px.png)](../img/300/2025-05-25-relative-popularity-opensource-webapp-testing-tools-summary.1800px.png)
-
 
 ## Community and Support
 
