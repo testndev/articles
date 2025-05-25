@@ -36,7 +36,7 @@ We will use several indicators to compare the popularity of those tools:
 
 The table below gives you an overview of the relative popularity of these 5 tools, with a few indicators and their evolution:
 
-[![](../img/300/2023-relative-popularity-opensource-webapp-testing-tools-summary.png)](../img/300/2023-relative-popularity-opensource-webapp-testing-tools-summary.png)
+[![](../img/300/2025-05-25-relative-popularity-opensource-webapp-testing-tools-summary.jpg)](../img/300/2025-05-25-relative-popularity-opensource-webapp-testing-tools-summary.jpg)
 
 ## Trend on the NPM packages
 
@@ -219,7 +219,7 @@ We can see in the graphs above:
 - Since September 2024, **`Cypress`** comes now in second place, after it was the most searched from 2022 to 2024.
 - The 3 other (`Nightwatch`, `Selenium JS` and `WebdriverIO`) seem to be much less "searched" on Google ("_Interest over time_" maximal value is 20).
 
-![](../img/300/2025-05-20-interest_over_time-2022_10-to-2025_05.jpg)
+![](../img/300/2025-05-25-interest_over_time-2021_10-to-2025_05.jpg)
 
 > source: https://trends.google.com/trends/explore?cat=32&date=2022-10-10%202025-05-20&q=Cypress,Nightwatch,Playwright,Selenium%20JS,WebdriverIO&hl=en
 >
