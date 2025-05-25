@@ -1,5 +1,14 @@
 # Popularity of the 5 web-app. testing tools
 
+|           | Benchmark of web-applications testing tools: popularity |
+| --------- | ------------------------------------------------------- |
+| _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/)   |
+| _Date_    | 25/05/2025                                              |
+| _Version_ | 1.0                                                     |
+| _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                  |
+
+---
+
 - [Popularity of the 5 web-app. testing tools](#popularity-of-the-5-web-app-testing-tools)
   - [Introduction](#introduction)
   - [Methodology](#methodology)
@@ -36,7 +45,7 @@ We will use several indicators to compare the popularity of those tools:
 
 The table below gives you an overview of the relative popularity of these 5 tools, with a few indicators and their evolution:
 
-[![](../img/300/2025-05-25-relative-popularity-opensource-webapp-testing-tools-summary.svg.png)](../img/300/2025-05-25-relative-popularity-opensource-webapp-testing-tools-summary.svg.png)
+![](../img/300/2025-05-25-relative-popularity-opensource-webapp-testing-tools-summary.1800px.png)
 
 ## Trend on the NPM packages
 
@@ -44,37 +53,27 @@ The Node.js versions of those tools are available as NPM packages.
 
 On [npm](https://www.npmjs.com) Registry, and for each package, we can take the **number of weekly downloads** as an indicator of their popularity.
 
-As for 21/05/2025, we have, for each package, on last 7 days:
+As for 25/05/2025, we have, for each package, on last 7 days:
 
-|                                    |  **Cypress.io** <br/> ![](../img/icons/cy-48.png)  |   **Nightwatch.js** <br/> ![](../img/icons/nw-48.png)    |        **Playwright Test** <br/> ![](../img/icons/pw-48.png)         |              **Selenium** <br/> ![](../img/icons/se-48.png)              |     **WebdriverIO** <br/> ![](../img/icons/wd-48.png)      |
-| ---------------------------------- | :------------------------------------------------: | :------------------------------------------------------: | :------------------------------------------------------------------: | :----------------------------------------------------------------------: | :--------------------------------------------------------: |
-| package name/url                   | [`cypress`](https://www.npmjs.com/package/cypress) | [`nightwatch`](https://www.npmjs.com/package/nightwatch) | [`@playwright/test`](https://www.npmjs.com/package/@playwright/test) | [`selenium-webdriver`](https://www.npmjs.com/package/selenium-webdriver) | [`webdriverio`](https://www.npmjs.com/package/webdriverio) |
-| number of weekly downloads (x1000) |                        6262                        |                           166                            |                                 8551                                 |                                   1729                                   |                            1792                            |
+| Tool            | Package name/url                                                         | last year, 19 May 2024 |     | **now** (24 May 2025) | evolution |
+| --------------- | ------------------------------------------------------------------------ | ---------------------: | --- | --------------------: | --------: |
+| Cypress.io      | [`cypress`](https://www.npmjs.com/package/cypress)                       |            `5 305 893` | →   |       **`6 352 192`** |    +20,7% |
+| Nightwatch.js   | [`nightwatch`](https://www.npmjs.com/package/nightwatch)                 |             ` 134 390` | →   |       **`  183 956`** |    +40,6% |
+| Playwright Test | [`@playwright/test`](https://www.npmjs.com/package/@playwright/test)     |            `4 532 739` | →   |       **`8 834 168`** |   +100,2% |
+| Selenium        | [`selenium-webdriver`](https://www.npmjs.com/package/selenium-webdriver) |            `1 848 423` | →   |       **`1 672 647`** |    -11,9% |
+| WebdriverIO     | [`webdriverio`](https://www.npmjs.com/package/webdriverio)               |            `1 437 007` | →   |       **`1 827 595`** |    +26,2% |
 
-- The most downloaded packages seems to be `cypress` framework, with more than 5 millions weekly downloads.
-- It's followed by `@playwright/test` framework with more than 2 millions weekly downloads.
-- The `selenium-webdriver` library is the third most downloaded package, with more than 1.7 millions weekly downloads.
-- The `webdriverio` testing framework is the fourth most downloaded package, with more than 1.1 millions weekly downloads.
-- While `nightwatch` framework is the less downloaded package, with less than 150k weekly downloads.
+- The most downloaded packages seems to be `@playwright/test` framework, with more than 8.8 millions weekly downloads.
+- It's followed by `cypress` framework with more than 6.3 millions weekly downloads.
+- The `webdriverio` testing framework is the third most downloaded package, with near 1.8 millions weekly downloads.
+- The `selenium-webdriver` library is the fourth most downloaded package, with near 1.7 millions weekly downloads.
+- While `nightwatch` framework is the less downloaded package, with ~ 183 thousands of weekly downloads.
 
 Thats good, but we can have a better view of the popularity of each tool, by comparing them on the same graph. And see progression over time.
 
-This was made with data from [`npm trends` (www.npmtrends.com)](https://www.npmtrends.com/@playwright/test-vs-cypress-vs-nightwatch-vs-selenium-webdriver-vs-webdriverio).
-On this site, we can see the popularity of each tool, by number of weekly downloads from NPM, with different time ranges.
+![](../img/300/npm-trends-4-years.png)
 
-Before looking at graphs, let's see the evolution of each tool, compared to last year.
-
-### Evolution compared to last year
-
-Comparing downloads on last 7 days, between May 2024 and May 2025:
-
-|                             | package name         | 19 May 2024 |     | 11 May 2025 | evolution |
-| --------------------------- | -------------------- | ----------: | --- | ----------: | --------: |
-| ![](../img/icons/cy-48.png) | `cypress`            |      5305 k | →   |      6262 k |      +18% |
-| ![](../img/icons/nw-48.png) | `nightwatch`         |       134 k | →   |       166 k |      +24% |
-| ![](../img/icons/pw-48.png) | `@playwright/test`   |      4532 k | →   |      8551 k |      +89% |
-| ![](../img/icons/se-48.png) | `selenium-webdriver` |      1848 k | →   |      1729 k |       -6% |
-| ![](../img/icons/wd-48.png) | `webdriverio`        |      1437 k | →   |      1792 k |      +25% |
+> This was made with data from [`npm trends` (www.npmtrends.com)](https://www.npmtrends.com/@playwright/test-vs-cypress-vs-nightwatch-vs-selenium-webdriver-vs-webdriverio).
 
 We can see in the graphs below:
 
@@ -83,17 +82,6 @@ We can see in the graphs below:
 - a slight decline in "`selenium-webdriver`" library weekly downloads, since beginning of 2023.
 - `WebdriverIO` seems to be less popular than the 3 others, but its usage keeps growing, and is now near the `selenium-webdriver` library.
 - Usage of "`Nightwatch`" seems to be stable, but its the less popular of the 5.
-
-### NPM trend - graphs
-
-Graphs copied from [npm trends](https://www.npmtrends.com/@playwright/test-vs-cypress-vs-nightwatch-vs-selenium-webdriver-vs-webdriverio) the 21/05/2025:
-
-| period                | npm trend graph                                                                                                  |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| over the past year    | ![1 Year](../img/300/npm-trends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-1_year.png)     |
-| over the past 2 years | ![2 Years](../img/300/npm-trends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-2_years.png)   |
-| over the past 5 years | ![5 Years](../img/300/npm-trends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-5_years.png)   |
-| since beginning       | ![All time](../img/300/npm-trends-playwrighttest.cypress.nightwatch.selenium-webdriver.webdriverio-all_time.png) |
 
 ## Trend on GitHub
 
@@ -205,7 +193,7 @@ We gave to "Google Trends" the following search terms to Google Trends: `Cypress
 And we filtered results with the parameters:
 
 - location: **worldwide**
-- time: from 01/01/2022 to 31/12/2023
+- time: from 10/05/2021 to 20/05/2025
 - category: "Computers & Electronics > Software"
 - web search
 
@@ -221,7 +209,7 @@ We can see in the graphs above:
 
 ![](../img/300/2025-05-25-interest_over_time-2021_10-to-2025_05.jpg)
 
-> source: https://trends.google.com/trends/explore?cat=32&date=2022-10-10%202025-05-20&q=Cypress,Nightwatch,Playwright,Selenium%20JS,WebdriverIO&hl=en
+> source: https://trends.google.com/trends/explore?cat=32&date=2021-05-10%202025-05-20&q=Cypress,Nightwatch,Playwright,Selenium%20JS,WebdriverIO&hl=en
 >
 > captured on 20/05/2025
 

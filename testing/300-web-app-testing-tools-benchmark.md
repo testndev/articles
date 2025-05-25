@@ -5,8 +5,8 @@
 |           | Benchmark of web-applications testing tools           |
 | --------- | ----------------------------------------------------- |
 | _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/) |
-| _Date_    | 21/05/2025                                            |
-| _Version_ | 0.93                                                  |
+| _Date_    | 25/05/2025                                            |
+| _Version_ | 0.94                                                  |
 | _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                |
 
 ---
@@ -82,18 +82,19 @@ Of course, the popularity of a tool is not the only criterion to take into accou
 
 In the ["**popularity of the 5 web-app. testing tools**" sub-page](./300-web-app-testing-tools-benchmark-popularity.html), we compare the popularity of the 5 tools, using several indicators.
 
-As by mid-November 2024, the popularity of the 5 tools is as follows:
+As by mid-May 2025, the popularity of the 5 tools is as follows:
 
-- **Cypress** was the most popular framework in recent years. It's now closely followed by **Playwright**, whose adoption is quickly growing since 2023.
-- Then, in terms of popularity, we have WebdriverIO.
-- Selenium WebDriver (as central part of framework) is still popular, but its popularity is slowly decreasing since 2022.
-- Nightwatch.js is the less used (downloaded) of the 5 tools.
-
-The table below gives you an overview of the relative popularity of these 5 tools, with a few indicators and their evolution:
-
-[![](../img/300/2024-11-14-relative-popularity-opensource-webapp-testing-tools-summary.jpg)](./300-web-app-testing-tools-benchmark-popularity.html)
+- ⭐⭐⭐⭐◻️ **"`Playwright test`" is the most popular** framework, since September 2024, and keep growing.
+- ⭐⭐⭐◻️◻️ **"`Cypress`"** framework is the second most popular, and keep growing too.
+- ⭐⭐◻️◻️◻️ **"`WebdriverIO`"** seems to be less popular than the 2 others frameworks (Cypress and Playwright), but its usage keeps growing (it's more used than Selenium WebDriver).
+- ⭐◻️◻️◻️◻️ **"`Selenium WebDriver`"** (as central part of a Node.js based framework) is still popular, but its popularity is slowly decreasing since 2022.
+- ⭐◻️◻️◻️◻️ Usage of **"`Nightwatch`"** seems to be stable, but its the less popular of the 5.
 
 > Disclaimer: the following indicators are not exhaustive, and are only a snapshot of the popularity of the tools at the time of writing this article.
+
+
+[![](../img/300/2025-05-25-relative-popularity-opensource-webapp-testing-tools-summary.1000px.png)](../img/300/2025-05-25-relative-popularity-opensource-webapp-testing-tools-summary.1800px.png)
+
 
 ## Community and Support
 
