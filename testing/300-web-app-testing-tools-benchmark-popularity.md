@@ -25,7 +25,7 @@
 
 ## Introduction
 
-In this section of "Benchmark of web-applications testing tools" article, we will compare **popularity** of the 5 tools chosen [above](../300-web-app-testing-tools-benchmark.html):
+In this section of "Benchmark of web-applications testing tools" article, we will compare **popularity** of the 5 tools chosen [above](https://articles.testndev.com/testing/300-web-app-testing-tools-benchmark.html):
 
 1. [Cypress.io](https://cypress.io/)
 2. [Nightwatch.js](https://nightwatchjs.org)
