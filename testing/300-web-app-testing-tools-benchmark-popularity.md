@@ -4,7 +4,7 @@
 | --------- | ------------------------------------------------------------------- |
 | _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/)               |
 | _Date_    | 25/05/2025                                                          |
-| _Version_ | 1.0                                                                 |
+| _Version_ | 1.01                                                                 |
 | _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                              |
 
 ---
@@ -55,13 +55,13 @@ On [npm](https://www.npmjs.com) Registry, and for each package, we can take the 
 
 As for 25/05/2025, we have, for each package, on last 7 days:
 
-| Tool            | Package name/url                                                         | last year (19 May 2024) | **now** (24 May 2025) | evolution |
-| --------------- | ------------------------------------------------------------------------ | ----------------------: | --------------------: | --------: |
-| Cypress.io      | [`cypress`](https://www.npmjs.com/package/cypress)                       |             `5 305 893` |       **`6 352 192`** |    +20,7% |
-| Nightwatch.js   | [`nightwatch`](https://www.npmjs.com/package/nightwatch)                 |              ` 134 390` |       **`  183 956`** |    +40,6% |
-| Playwright Test | [`@playwright/test`](https://www.npmjs.com/package/@playwright/test)     |             `4 532 739` |       **`8 834 168`** |   +100,2% |
-| Selenium        | [`selenium-webdriver`](https://www.npmjs.com/package/selenium-webdriver) |             `1 848 423` |       **`1 672 647`** |    -11,9% |
-| WebdriverIO     | [`webdriverio`](https://www.npmjs.com/package/webdriverio)               |             `1 437 007` |       **`1 827 595`** |    +26,2% |
+| Tool            | Package name/url                                                         | last year (19 May 2024) | now (24 May 2025) | evolution |
+| --------------- | ------------------------------------------------------------------------ | ----------------------- | ----------------- | --------- |
+| Cypress.io      | [`cypress`](https://www.npmjs.com/package/cypress)                       | `5 305 893`             | **`6 352 192`**   | +20,7%    |
+| Nightwatch.js   | [`nightwatch`](https://www.npmjs.com/package/nightwatch)                 | ` 134 390`              | **`  183 956`**   | +40,6%    |
+| Playwright Test | [`@playwright/test`](https://www.npmjs.com/package/@playwright/test)     | `4 532 739`             | **`8 834 168`**   | +100,2%   |
+| Selenium        | [`selenium-webdriver`](https://www.npmjs.com/package/selenium-webdriver) | `1 848 423`             | **`1 672 647`**   | -11,9%    |
+| WebdriverIO     | [`webdriverio`](https://www.npmjs.com/package/webdriverio)               | `1 437 007`             | **`1 827 595`**   | +26,2%    |
 
 - The most downloaded packages seems to be `@playwright/test` framework, with more than 8.8 millions weekly downloads.
 - It's followed by `cypress` framework with more than 6.3 millions weekly downloads.
