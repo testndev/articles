@@ -1,11 +1,13 @@
-# Benchmark of 5 web-applications testing tools: comparing popularity
+# Compared popularity of 5 open-source web app testing tools
 
-|           | Benchmark of 5 web-applications testing tools: comparing popularity |
-| --------- | ------------------------------------------------------------------- |
-| _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/)               |
-| _Date_    | 25/05/2025                                                          |
-| _Version_ | 1.1                                                                 |
-| _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                              |
+![](../img/300/relative-popularity-opensource-webapp-testing-tools-header.png)
+
+|           | Compared popularity of 5 open-source web app testing tools |
+| --------- | ---------------------------------------------------------- |
+| _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/)      |
+| _Date_    | 25/05/2025                                                 |
+| _Version_ | 1.1                                                        |
+| _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                     |
 
 This article is a sub-section of the "[Benchmark of web-applications testing tools](https://articles.testndev.com/testing/300-web-app-testing-tools-benchmark.html)".
 
@@ -37,7 +39,7 @@ This article benchmarks 4 leading web-app testing frameworks: [Cypress.io](https
 
 By analyzing trends in NPM downloads, GitHub activity, and search interest, this article provides data-driven insights into each tool's popularity to help inform your decision-making process.
 
-*Note: Popularity should be considered alongside other factors such as features, ease of use, documentation quality, and specific project requirements.*
+_Note: Popularity should be considered alongside other factors such as features, ease of use, documentation quality, and specific project requirements._
 
 ## Methodology
 
