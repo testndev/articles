@@ -4,8 +4,10 @@
 | --------- | ------------------------------------------------------------------- |
 | _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/)               |
 | _Date_    | 25/05/2025                                                          |
-| _Version_ | 1.02                                                                |
+| _Version_ | 1.1                                                                 |
 | _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                              |
+
+This article is a sub-section of the "[Benchmark of web-applications testing tools](https://articles.testndev.com/testing/300-web-app-testing-tools-benchmark.html)".
 
 ---
 
@@ -25,13 +27,17 @@
 
 ## Introduction
 
-In this section of "Benchmark of web-applications testing tools" article, we will compare **popularity** of the 5 tools chosen [above](https://articles.testndev.com/testing/300-web-app-testing-tools-benchmark.html):
+In web application development, choosing the right testing tools is fundamental for improving software quality and ensuring efficient development workflows.
 
-1. [Cypress.io](https://cypress.io/)
-2. [Nightwatch.js](https://nightwatchjs.org)
-3. [Playwright](https://playwright.dev/)
-4. [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
-5. [WebdriverIO](https://webdriver.io/)
+End-to-end (E2E) testing is a kind of activity that helps you validate your web app by automating user interactions in a (real) browser environment. These controls run against deployed applications and can simulate complete user journeys from start to finish.
+
+With numerous open-source testing tools available, selecting the best fit for your project can be challenging. While your decision should consider multiple factors, popularity is an important indicator that reflects community adoption, support, and long-term viability.
+
+This article benchmarks 4 leading web-app testing frameworks: [Cypress.io](https://cypress.io/), [Nightwatch.js](https://nightwatchjs.org), [Playwright](https://playwright.dev/), [WebdriverIO](https://webdriver.io/). [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) is included as a widely-used library for building custom testing solutions across multiple programming languages.
+
+By analyzing trends in NPM downloads, GitHub activity, and search interest, this article provides data-driven insights into each tool's popularity to help inform your decision-making process.
+
+*Note: Popularity should be considered alongside other factors such as features, ease of use, documentation quality, and specific project requirements.*
 
 ## Methodology
 
