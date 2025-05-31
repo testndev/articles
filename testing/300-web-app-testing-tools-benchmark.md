@@ -68,19 +68,19 @@ In the table below, the official quick presentations of the 5 tools, as given on
 
 As you can see, Selenium WebDriver (JavaScript version and the other) is **not a test framework** by itself, contrary to the 4 others. It is (only) a tool to automate browsers. If we want to use it for web-app testing purposes, we will need to integrate it with a testing framework (like Mocha, Jest, etc.).
 
-In many articles/posts/videos, Selenium WebDriver is often compared to Cypress and/or Playwright, as it was, before them, the most popular open-source tool for web-app testing for many years. And it is still popular today. We will compare it to the 4 others in this article.
+In many articles/posts/videos, Selenium WebDriver is often compared to Cypress and/or Playwright, as it was, before them, the most popular open-source tool for web-app testing for many years. And it is still popular today. I will compare it to the 4 others in this article.
 
-We will try to take this into account in our comparison, and for code examples, we will use a JavaScript testing framework (here Jest) to compare the 5 tools.
+We will try to take this into account in our comparison, and for code examples, I will use a JavaScript testing framework (here Jest) to compare the 5 tools.
 
 ## Popularity of the 5 tools
 
 One of the criteria to choose a tool is its popularity. The more popular a tool is, the more likely it is to be maintained, to have a large community, and to have a lot of resources available (tutorials, plugins, etc.).
 
-To have an overview of "popularity" of each tool, we used indicators retrieved on NPM, GitHub and Google.
+To have an overview of "popularity" of each tool, I used indicators retrieved on NPM, GitHub and Google.
 
 Of course, the popularity of a tool is not the only criterion to take into account when choosing a tool. But it is an important one.
 
-In the ["**popularity of the 5 web-app. testing tools**" sub-page](./300-web-app-testing-tools-benchmark-popularity.html), we compare the popularity of the 5 tools, using several indicators.
+In the ["**popularity of the 5 web-app. testing tools**" sub-page](./300-web-app-testing-tools-benchmark-popularity.html), I compare the popularity of the 5 tools, using several indicators.
 
 As by mid-May 2025, the popularity of the 5 tools is as follows:
 
@@ -151,7 +151,7 @@ The 5 tools use different automation protocols:
 
 ### Cross-Browser Testing
 
-We will here discuss capabilities and limitations for cross-browser testing, for those 5 tools.
+I will here discuss capabilities and limitations for cross-browser testing, for those 5 tools.
 
 #### Browsers support
 
@@ -163,22 +163,30 @@ The 5 tools support automation on browsers based on the 3 main Web browsers engi
 | [ ![](../img/icons/gecko-icon.png) **Gecko**](<https://en.wikipedia.org/wiki/Gecko_(software)>)          | [**Firefox**](https://www.mozilla.org/firefox/)                                                                                                                                     |
 | [ ![](../img/icons/webkit-logo.png) **WebKit**](https://en.wikipedia.org/wiki/WebKit)                    | [Apple's **Safari**](https://www.apple.com/safari/) (+ GNOME Web, Konqueror, Orion)                                                                                                 |
 
-| aspect                                   | Cypress                      | Nighwatch      | Playwright             | Selenium + | WebdriverIO        |
-| ---------------------------------------- | ---------------------------- | -------------- | ---------------------- | ---------- | ------------------ |
-| Other than JS/TS?                        | No, only JS/TS               | No, only JS/TS | Yes (C#, Java, Python) | Yes, many  | No, only JS/TS     |
-| Automation **Protocol**                  | Inside Browser               | WebDriver      | CDP                    | WebDriver  | WebDriver (or CDP) |
-| **_Browsers support_**                   |                              |                |                        |            |                    |
-| Chromium family (Google Chrome, MS Edge) | Yes                          | Yes            | Yes                    | Yes        | Yes                |
-| Firefox family                           | Yes                          | Yes            | Yes                    | Yes        | Yes                |
-| Safari                                   | WebKit engine (experimental) | Yes            | WebKit engine          | Yes        | Yes                |
-| IE 11 (for old computers...)             | No                           | maybe?         | No                     | Yes        | maybe?             |
+| browser                      | Cypress | Nighwatch | Playwright | Selenium + | WebdriverIO |
+| ---------------------------- | ------- | --------- | ---------- | ---------- | ----------- |
+| _Real branded browsers_      |         |           |            |            |             |
+| Google Chrome                | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
+| Microsoft Edge               | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
+| Safari                       | ⭕ no   | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
+| Firefox                      | 🟦 Yes  | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
+| _Custom browsers_            |         |           |            |            |             |
+| Chromium based browsers      | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
+| Custom Gecko-based           | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
+| Custom WebKit-based          | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
+| _Other browsers_             |         |           |            |            |             |
+| IE 11 (for old computers...) | ⭕ no   | maybe?    | ⭕ no      | 🟦 Yes     | maybe?      |
 
-- Cypress and Playwright support the Chromium family (Google Chrome, Microsoft Edge) and Firefox. Playwright also supports Safari (using WebKit engine).
-- Selenium WebDriver supports all the main browsers, including Safari and Internet Explorer 11.
-- WebdriverIO supports the main browsers, but not Safari (only experimental support).
-- Nightwatch.js supports the main browser
+Some notes about the table above:
+- Cypress and Playwright support the Chromium family (Google Chrome, Microsoft Edge).
+- Playwright supports all modern rendering engines, BUT it cannot run on a real branded Safari browser, as mentioned in [Playwright documentation](https://playwright.dev/docs/browsers#webkit). It simulates Safari with a in-house built WebKit-based browser.
+- Same for Firefox, as mentioned in [Playwright documentation](https://playwright.dev/docs/browsers#firefox).
+- Cypress supports the main browsers, but not Safari (only experimental support).
+- Cypress controls Firefox via [geckodriver](https://docs.cypress.io/app/references/launching-browsers#Firefox-Browsers).
+- All browsers used by Playwright are hosted on Microsoft's CDN, as mentioned [here](https://playwright.dev/docs/browsers#install-behind-a-firewall-or-a-proxy).
+- Selenium WebDriver **supports all the main browsers**, including Safari and Internet Explorer 11.
+- Nightwatch.js supports the main browsers
 
-> ⚠️ to be completed
 
 ## Installation 🚧
 
@@ -186,7 +194,7 @@ The 5 tools support automation on browsers based on the 3 main Web browsers engi
 
 ## Performance 🚧
 
-We will use our code hosted on [`testndev/web-app-testing-tools-benchmark`](https://github.com/testndev/web-app-testing-tools-benchmark/) repository for our technical benchmark.
+I will use our code hosted on [`testndev/web-app-testing-tools-benchmark`](https://github.com/testndev/web-app-testing-tools-benchmark/) repository for our technical benchmark.
 
 > ⚠️ to be completed
 
