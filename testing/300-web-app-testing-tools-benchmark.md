@@ -153,6 +153,10 @@ The 5 tools use different automation protocols:
 
 I will here discuss capabilities and limitations for cross-browser testing, for those 5 tools.
 
+[![opensource-webapp-testing-tools-browser-compatibility-2025-06-01.png](../img/300/opensource-webapp-testing-tools-browser-compatibility-2025-06-01.1000.png)](../img/300/opensource-webapp-testing-tools-browser-compatibility-2025-06-01.png)
+
+#### Browsers render engine support
+
 #### Browsers support
 
 The 5 tools support automation on browsers based on the 3 main Web browsers engines (or rendering engines):
@@ -165,7 +169,7 @@ The 5 tools support automation on browsers based on the 3 main Web browsers engi
 
 | browser                      | Cypress | Nighwatch | Playwright | Selenium + | WebdriverIO |
 | ---------------------------- | ------- | --------- | ---------- | ---------- | ----------- |
-| _Real branded browsers_      |         |           |            |            |             |
+| _Real desktop branded browsers_      |         |           |            |            |             |
 | Google Chrome                | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
 | Microsoft Edge               | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
 | Safari                       | ⭕ no   | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
@@ -175,7 +179,7 @@ The 5 tools support automation on browsers based on the 3 main Web browsers engi
 | Custom Gecko-based           | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
 | Custom WebKit-based          | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
 | _Other browsers_             |         |           |            |            |             |
-| IE 11 (for old computers...) | ⭕ no   | maybe?    | ⭕ no      | 🟦 Yes     | maybe?      |
+| IE 11 (for old computers...) | ⭕ no   | 🟦 Yes   | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
 
 Some notes about the table above:
 - Cypress and Playwright support the Chromium family (Google Chrome, Microsoft Edge).
