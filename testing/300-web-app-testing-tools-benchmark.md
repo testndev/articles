@@ -151,46 +151,54 @@ The 5 tools use different automation protocols:
 
 ### Cross-Browser Testing
 
-I will here discuss capabilities and limitations for cross-browser testing, for those 5 tools.
+All the 5 tools claims that have **cross-browser** capacity, but they have different capabilities and limitations.
+
+In the below infographic, you can see the **browser compatibility** of the 5 tools, as of June 2025.
+
+> - In columns, you can see the 5 tools, and in rows, you can see the browsers supported (or not) by each tool.
+> - Browsers are sorted by their usage share, from the most used to the least used, according to [StatCounter Global Stats](https://gs.statcounter.com/browser-market-share#monthly-202504-202504-bar).
+> - The 3 last rows are for the browsers that are for Web browsers engines (Blink, Gecko and WebKit), on which all previous browsers are based.
 
 [![opensource-webapp-testing-tools-browser-compatibility-2025-06-02.1920px.png](../img/300/opensource-webapp-testing-tools-browser-compatibility-2025-06-02.1000px.png)](../img/300/opensource-webapp-testing-tools-browser-compatibility-2025-06-02.1920px.png)
 
 #### Browsers render engine support
 
-#### Browsers support
-
 The 5 tools support automation on browsers based on the 3 main Web browsers engines (or rendering engines):
 
-| Engine                                                                                                   | Browsers Using This engine                                                                                                                                                          |
-| -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [ ![](../img/icons/chromium-logo.png) **Blink**](<https://en.wikipedia.org/wiki/Blink_(browser_engine)>) | [**Google Chrome**](https://www.google.com/chrome/) and all other Chromium-based browsers, including [**Microsoft Edge**](https://www.microsoft.com/edge), Brave, Vivaldi, Opera... |
-| [ ![](../img/icons/gecko-icon.png) **Gecko**](<https://en.wikipedia.org/wiki/Gecko_(software)>)          | [**Firefox**](https://www.mozilla.org/firefox/)                                                                                                                                     |
-| [ ![](../img/icons/webkit-logo.png) **WebKit**](https://en.wikipedia.org/wiki/WebKit)                    | [Apple's **Safari**](https://www.apple.com/safari/) (+ GNOME Web, Konqueror, Orion)                                                                                                 |
+- **[<img src="../img/icons/chromium-logo.png" width="20" alt="Blink"> Blink](<https://en.wikipedia.org/wiki/Blink_(browser_engine)>)** browser engine, that powers [**Google Chrome**](https://www.google.com/chrome/) and all other Chromium-based browsers, including [**Microsoft Edge**](https://www.microsoft.com/edge), Brave, Vivaldi, Opera...
+- **[<img src="../img/icons/gecko-icon.png" width="20" alt="Gecko"> Gecko](<https://en.wikipedia.org/wiki/Gecko_(software)>)** browser engine, that powers [**Firefox**](https://www.mozilla.org/firefox/)
+- **[<img src="../img/icons/webkit-logo.png" width="20" alt="WebKit"> WebKit](https://en.wikipedia.org/wiki/WebKit)** browser engine, that powers [Apple's **Safari**](https://www.apple.com/safari/) (+ GNOME Web, Konqueror, Orion)
 
-| browser                         | Cypress | Nighwatch | Playwright | Selenium + | WebdriverIO |
-| ------------------------------- | ------- | --------- | ---------- | ---------- | ----------- |
-| _Real desktop branded browsers_ |         |           |            |            |             |
-| Google Chrome                   | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
-| Microsoft Edge                  | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
-| Safari                          | ⭕ no   | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
-| Firefox                         | 🟦 Yes  | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
-| _Custom browsers_               |         |           |            |            |             |
-| Chromium based browsers         | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
-| Custom Gecko-based              | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
-| Custom WebKit-based             | 🟦 Yes  | N/A       | 🟦 Yes     | N/A        | N/A         |
-| _Other browsers_                |         |           |            |            |             |
-| IE 11 (for old computers...)    | ⭕ no   | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
+#### Browsers support
+
+| browser                                  | Cypress | Nighwatch | Playwright | Selenium + | WebdriverIO |
+| ---------------------------------------- | ------- | --------- | ---------- | ---------- | ----------- |
+| 🖥️ _Real **desktop branded** browsers_   |         |           |            |            |             |
+| Google Chrome                            | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
+| Microsoft Edge                           | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
+| (Apple) Safari                           | ⭕ no   | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
+| (Mozilla) Firefox                        | 🟦 Yes  | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
+| 📦 _**Custom** browsers_                 |         |           |            |            |             |
+| Chromium based browsers                  | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
+| Custom Gecko-based                       | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
+| Custom WebKit-based                      | 🟦 Yes  | N/A       | 🟦 Yes     | N/A        | N/A         |
+| 📱 _Browsers on real **mobile devices**_ |         |           |            |            |             |
+| Samsung Internet                         | ⭕ no   | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
+| _Other browsers_                         |         |           |            |            |             |
+| IE 11 (for old computers...)             | ⭕ no   | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
+| Opera                                    | ⭕ no   | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
 
 Some notes about the table above:
 
-- Cypress and Playwright support the Chromium family (Google Chrome, Microsoft Edge).
-- Playwright supports all modern rendering engines, BUT it cannot run on a real branded Safari browser, as mentioned in [Playwright documentation](https://playwright.dev/docs/browsers#webkit). It simulates Safari with a in-house built WebKit-based browser.
-- Same for Firefox, as mentioned in [Playwright documentation](https://playwright.dev/docs/browsers#firefox).
-- Cypress supports the main browsers, but not Safari (only experimental support).
-- Cypress controls Firefox via [geckodriver](https://docs.cypress.io/app/references/launching-browsers#Firefox-Browsers).
-- All browsers used by Playwright are hosted on Microsoft's CDN, as mentioned [here](https://playwright.dev/docs/browsers#install-behind-a-firewall-or-a-proxy).
-- Selenium WebDriver **supports all the main browsers**, including Safari and Internet Explorer 11.
-- Nightwatch.js supports the main browsers
+1. For the 3 frameworks using WebDriver protocol (**Selenium**, **Nightwatch.js** and **WebdriverIO**) ; the can control all browsers, including Safari and Firefox.
+2. **Cypress**:
+   - Cypress can control Chromium-based browsers (Google Chrome, Microsoft Edge, etc.), but not Safari (only experimental support on a WebKit based browser, the same used by Playwright).
+   - Cypress can control Firefox via [geckodriver](https://docs.cypress.io/app/references/launching-browsers#Firefox-Browsers).
+3. **Playwright**:
+   - Playwright supports all modern rendering engines, BUT it cannot run on a real branded Safari browser, as mentioned in [Playwright documentation](https://playwright.dev/docs/browsers#webkit). It simulates Safari with a in-house built WebKit-based browser.
+   - Same for Firefox, as mentioned in [Playwright documentation](https://playwright.dev/docs/browsers#firefox).
+   - Playwright can control 2 branded browsers based on Chromium: Google Chrome, Microsoft Edge.
+   - All its custom browsers are hosted on Microsoft's CDN, as mentioned [here](https://playwright.dev/docs/browsers#install-behind-a-firewall-or-a-proxy).
 
 ## Installation 🚧
 
