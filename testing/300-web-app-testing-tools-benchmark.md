@@ -171,7 +171,7 @@ The 5 tools support automation on browsers based on the 3 main Web browsers engi
 
 #### Browsers support
 
-| browser                                  | Cypress | Nighwatch | Playwright | Selenium + | WebdriverIO |
+| browser                                  | Cypress | Nightwatch.js | Playwright | Selenium + | WebdriverIO |
 | ---------------------------------------- | ------- | --------- | ---------- | ---------- | ----------- |
 | 🖥️ _Real **desktop branded** browsers_   |         |           |            |            |             |
 | Google Chrome                            | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
@@ -190,11 +190,13 @@ The 5 tools support automation on browsers based on the 3 main Web browsers engi
 
 Some notes about the table above:
 
-1. For the 3 frameworks using WebDriver protocol (**Selenium**, **Nightwatch.js** and **WebdriverIO**) ; the can control all browsers, including Safari and Firefox.
-2. **Cypress**:
+1. ⭐⭐⭐⭐⭐ **WebdriverIO** can control all browsers, including Safari and Firefox.
+2. ⭐⭐⭐⭐⭐ Same for **Nightwatch.js**, as it is also based on WebDriver protocol.
+3. ⭐⭐⭐⭐⭐ Custom frameworks based on **Selenium WebDriver** can control all browsers, including Safari and Firefox.
+4. ⭐⭐⭐◻️◻️ **Cypress**:
    - Cypress can control Chromium-based browsers (Google Chrome, Microsoft Edge, etc.), but not Safari (only experimental support on a WebKit based browser, the same used by Playwright).
    - Cypress can control Firefox via [geckodriver](https://docs.cypress.io/app/references/launching-browsers#Firefox-Browsers).
-3. **Playwright**:
+5. ⭐⭐⭐◻️◻️ **Playwright**:
    - Playwright supports all modern rendering engines, BUT it cannot run on a real branded Safari browser, as mentioned in [Playwright documentation](https://playwright.dev/docs/browsers#webkit). It simulates Safari with a in-house built WebKit-based browser.
    - Same for Firefox, as mentioned in [Playwright documentation](https://playwright.dev/docs/browsers#firefox).
    - Playwright can control 2 branded browsers based on Chromium: Google Chrome, Microsoft Edge.
@@ -232,6 +234,13 @@ You can read for example:
   > in english, 09/01/2024, by [David Burns @AutomatedTester](https://twitter.com/automatedtester)
 
 ## Conclusion
+
+
+In this article, I presented a benchmark of 5 popular open-source tools for web-applications testing: Cypress, Nightwatch.js, Playwright, Selenium WebDriver and WebdriverIO.
+
+I compared their features, popularity, technical aspects, and community support.
+
+I hope this article will help you to choose the right tool for your web-applications testing needs.
 
 > ⚠️ to be completed
 
