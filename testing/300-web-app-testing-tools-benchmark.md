@@ -5,25 +5,43 @@
 |           | Benchmark of 5 web-applications testing tools         |
 | --------- | ----------------------------------------------------- |
 | _Author_  | Alhusaine NEMER – [test'n'dev](https://testndev.com/) |
-| _Date_    | 25/05/2025                                            |
-| _Version_ | 0.94                                                  |
+| _Date_    | 19/06/2025                                            |
+| _Version_ | 0.95                                                  |
 | _Licence_ | <a href="#licence">CC BY-NC-ND 4.0</a>                |
 
 ---
 
-- [Benchmark of web-applications testing tools](#benchmark-of-web-applications-testing-tools)
-  - [Introduction](#introduction)
-  - [Quick presentation of the compared tools](#quick-presentation-of-the-compared-tools)
-  - [Popularity of the 5 tools](#popularity-of-the-5-tools)
-  - [Technical comparison](#technical-comparison)
-  - [Installation 🚧](#installation-)
-  - [Performance 🚧](#performance-)
-  - [See also](#see-also)
-  - [Conclusion](#conclusion)
+<!-- vscode-markdown-toc -->
+
+- 1. [Introduction](#Introduction)
+  - 1.1. [selection of tools](#selectionoftools)
+- 2. [Quick presentation of the compared tools](#Quickpresentationofthecomparedtools)
+  - 2.1. [Note about "Selenium WebDriver" in this comparison](#NoteaboutSeleniumWebDriverinthiscomparison)
+- 3. [Popularity of the 5 tools](#Popularityofthe5tools)
+- 4. [Community and Support](#CommunityandSupport)
+  - 4.1. [Notes for Cypress](#NotesforCypress)
+  - 4.2. [Notes for Playwright](#NotesforPlaywright)
+- 5. [Technical comparison](#Technicalcomparison)
+  - 5.1. [Automation Protocol](#AutomationProtocol)
+  - 5.2. [Cross-Browser Testing](#Cross-BrowserTesting)
+    - 5.2.1. [Browsers render engine support](#Browsersrenderenginesupport)
+    - 5.2.2. [Desktop browsers support](#Desktopbrowserssupport)
+    - 5.2.3. [Support for mobile browsers](#Supportformobilebrowsers)
+    - 5.2.4. [Support for old versions of browsers](#Supportforoldversionsofbrowsers)
+- 6. [Installation 🚧](#Installation)
+- 7. [Performance 🚧](#Performance)
+- 8. [See also](#Seealso)
+- 9. [Conclusion](#Conclusion)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 ---
 
-## Introduction
+## 1. <a name='Introduction'></a>Introduction
 
 In this article, I will compare some of **popular tools** used...
 
@@ -33,7 +51,7 @@ In this article, I will compare some of **popular tools** used...
 
 I will try to be as objective as possible. It is not a "versus" article, not a "click bait" post, but a comparison of the characteristics, features and performance of each tool.
 
-### selection of tools
+### 1.1. <a name='selectionoftools'></a>selection of tools
 
 We will focus on tools having those characteristics:
 
@@ -52,7 +70,7 @@ We selected the following 5 tools:
 
 In this article, and to be fair in the comparison, we will take JavaScript/TypeScript versions of Playwright and Selenium.
 
-## Quick presentation of the compared tools
+## 2. <a name='Quickpresentationofthecomparedtools'></a>Quick presentation of the compared tools
 
 In the table below, the official quick presentations of the 5 tools, as given on their respective websites:
 
@@ -64,7 +82,7 @@ In the table below, the official quick presentations of the 5 tools, as given on
 | ![](../img/icons/se-48.png) | [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) | Selenium **automates browsers**. That's it! <br/> What you do with that power is entirely up to you. Primarily it is for automating web applications for testing purposes, but is certainly not limited to just that.                                                                                                                                                                                    |
 | ![](../img/icons/wd-48.png) | [WebdriverIO](https://webdriver.io/)                                    | Next-gen browser and mobile automation **test framework** for Node.js                                                                                                                                                                                                                                                                                                                                    |
 
-### Note about "Selenium WebDriver" in this comparison
+### 2.1. <a name='NoteaboutSeleniumWebDriverinthiscomparison'></a>Note about "Selenium WebDriver" in this comparison
 
 As you can see, Selenium WebDriver (JavaScript version and the other) is **not a test framework** by itself, contrary to the 4 others. It is (only) a tool to automate browsers. If we want to use it for web-app testing purposes, we will need to integrate it with a testing framework (like Mocha, Jest, etc.).
 
@@ -72,7 +90,7 @@ In many articles/posts/videos, Selenium WebDriver is often compared to Cypress a
 
 We will try to take this into account in our comparison, and for code examples, I will use a JavaScript testing framework (here Jest) to compare the 5 tools.
 
-## Popularity of the 5 tools
+## 3. <a name='Popularityofthe5tools'></a>Popularity of the 5 tools
 
 One of the criteria to choose a tool is its popularity. The more popular a tool is, the more likely it is to be maintained, to have a large community, and to have a lot of resources available (tutorials, plugins, etc.).
 
@@ -94,7 +112,7 @@ As by mid-May 2025, the popularity of the 5 tools is as follows:
 
 [![](../img/300/2025-05-25-relative-popularity-opensource-webapp-testing-tools-summary.1000px.png)](../img/300/2025-05-25-relative-popularity-opensource-webapp-testing-tools-summary.1800px.png)
 
-## Community and Support
+## 4. <a name='CommunityandSupport'></a>Community and Support
 
 The 5 tools are officially "open source". But what does it mean? According to the [Open Source Initiative](https://opensource.org/osd/), open source software is software that can be freely used, changed, and shared (in modified or unmodified form) by anyone. Open source software is made by many people, and distributed under licenses that comply with the Open Source Definition.
 
@@ -117,23 +135,23 @@ The table below gives you an overview of the licenses and sponsors of the 5 tool
 | License | The MIT License | The MIT License | Apache License 2.0 | Apache License 2.0 | The MIT License          |
 | Sponsor | Cypress.io      | BrowserStack    | Microsoft          | Community          | BrowserStack + SauceLabs |
 
-### Notes for Cypress
+### 4.1. <a name='NotesforCypress'></a>Notes for Cypress
 
 Cypress is developed by [Cypress.io](https://www.cypress.io/about-us), a US-based company that offers a commercial product based on the open-source project.
 
-### Notes for Playwright
+### 4.2. <a name='NotesforPlaywright'></a>Notes for Playwright
 
 Playwright is an open-source project, but it is also a copyrighted product of Microsoft Corporation.
 Playwright is developed in the _Developer Division_ at Microsoft (which also develops Visual Studio Code, TypeScript, etc.).
 
-## Technical comparison
+## 5. <a name='Technicalcomparison'></a>Technical comparison
 
 | aspect                  | Cypress        | Nighwatch      | Playwright             | Selenium + | WebdriverIO        |
 | ----------------------- | -------------- | -------------- | ---------------------- | ---------- | ------------------ |
 | Other than JS/TS?       | No, only JS/TS | No, only JS/TS | Yes (C#, Java, Python) | Yes, many  | No, only JS/TS     |
 | Automation **Protocol** | Inside Browser | WebDriver      | CDP                    | WebDriver  | WebDriver (or CDP) |
 
-### Automation Protocol
+### 5.1. <a name='AutomationProtocol'></a>Automation Protocol
 
 The 5 tools use different automation protocols:
 
@@ -144,14 +162,14 @@ The 5 tools use different automation protocols:
 |                             | name               | WebDriver    | CDP (Chrome DevTools Protocol) | Other             |
 | --------------------------- | ------------------ | ------------ | ------------------------------ | ----------------- |
 | ![](../img/icons/cy-48.png) | Cypress            | ⭕ no        | ⭕ no                          | 🟦 inside browser |
-| ![](../img/icons/nw-48.png) | Nightwatch         | 🟦 Yes       | ⭕ no                          |                   |
-| ![](../img/icons/pw-48.png) | Playwright         | ⭕ no        | 🟦 Yes                         |                   |
-| ![](../img/icons/se-48.png) | Selenium WebDriver | 🟦 Yes, only | ⭕ no                          |                   |
-| ![](../img/icons/wd-48.png) | WebdriverIO        | 🟦 Yes       | 🟦 Yes, possible for Chrome    |                   |
+| ![](../img/icons/nw-48.png) | Nightwatch         | ✅ Yes       | ⭕ no                          |                   |
+| ![](../img/icons/pw-48.png) | Playwright         | ⭕ no        | ✅ Yes                         |                   |
+| ![](../img/icons/se-48.png) | Selenium WebDriver | ✅ Yes, only | ⭕ no                          |                   |
+| ![](../img/icons/wd-48.png) | WebdriverIO        | ✅ Yes       | ✅ Yes, possible for Chrome    |                   |
 
-### Cross-Browser Testing
+### 5.2. <a name='Cross-BrowserTesting'></a>Cross-Browser Testing
 
-All the 5 tools claims that have **cross-browser** capacity, but they have different capabilities and limitations.
+All the 5 tools claim that have **cross-browser** capacity, but they have different capabilities and limitations.
 
 In the below infographic, you can see the **browser compatibility** of the 5 tools, as of June 2025.
 
@@ -161,7 +179,7 @@ In the below infographic, you can see the **browser compatibility** of the 5 too
 
 [![opensource-webapp-testing-tools-browser-compatibility-2025-06-02.1920px.png](../img/300/opensource-webapp-testing-tools-browser-compatibility-2025-06-02.1000px.png)](../img/300/opensource-webapp-testing-tools-browser-compatibility-2025-06-02.1920px.png)
 
-#### Browsers render engine support
+#### 5.2.1. <a name='Browsersrenderenginesupport'></a>Browsers render engine support
 
 The 5 tools support automation on browsers based on the 3 main Web browsers engines (or rendering engines):
 
@@ -169,50 +187,75 @@ The 5 tools support automation on browsers based on the 3 main Web browsers engi
 - **[<img src="../img/icons/gecko-icon.png" width="20" alt="Gecko"> Gecko](<https://en.wikipedia.org/wiki/Gecko_(software)>)** browser engine, that powers [**Firefox**](https://www.mozilla.org/firefox/)
 - **[<img src="../img/icons/webkit-logo.png" width="20" alt="WebKit"> WebKit](https://en.wikipedia.org/wiki/WebKit)** browser engine, that powers [Apple's **Safari**](https://www.apple.com/safari/) (+ GNOME Web, Konqueror, Orion)
 
-#### Browsers support
+#### 5.2.2. <a name='Desktopbrowserssupport'></a>Desktop browsers support
 
-| browser                                  | Cypress | Nightwatch.js | Playwright | Selenium + | WebdriverIO |
-| ---------------------------------------- | ------- | --------- | ---------- | ---------- | ----------- |
-| 🖥️ _Real **desktop branded** browsers_   |         |           |            |            |             |
-| Google Chrome                            | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
-| Microsoft Edge                           | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
-| (Apple) Safari                           | ⭕ no   | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
-| (Mozilla) Firefox                        | 🟦 Yes  | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
-| 📦 _**Custom** browsers_                 |         |           |            |            |             |
-| Chromium based browsers                  | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
-| Custom Gecko-based                       | 🟦 Yes  | 🟦 Yes    | 🟦 Yes     | 🟦 Yes     | 🟦 Yes      |
-| Custom WebKit-based                      | 🟦 Yes  | N/A       | 🟦 Yes     | N/A        | N/A         |
-| 📱 _Browsers on real **mobile devices**_ |         |           |            |            |             |
-| Samsung Internet                         | ⭕ no   | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
-| _Other browsers_                         |         |           |            |            |             |
-| IE 11 (for old computers...)             | ⭕ no   | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
-| Opera                                    | ⭕ no   | 🟦 Yes    | ⭕ no      | 🟦 Yes     | 🟦 Yes      |
+| browser                                | Cypress | Playwright | Nightwatch.js / WebdriverIO / Selenium + |
+| -------------------------------------- | ------- | ---------- | ---------------------------------------- |
+| 🖥️ _Real **desktop branded** browsers_ |         |            |                                          |
+| Google Chrome                          | ✅ Yes  | ✅ Yes     | ✅ Yes                                   |
+| Microsoft Edge                         | ✅ Yes  | ✅ Yes     | ✅ Yes                                   |
+| (Apple) Safari                         | ⭕ no   | ⭕ no      | ✅ Yes                                   |
+| (Mozilla) Firefox                      | ✅ Yes  | ⭕ no      | ✅ Yes                                   |
+| 📦 _**Custom** browsers_               |         |            |                                          |
+| Chromium based browsers                | ✅ Yes  | ✅ Yes     | ✅ Yes                                   |
+| Custom Gecko-based                     | ✅ Yes  | ✅ Yes     | ✅ Yes                                   |
+| Custom WebKit-based                    | ✅ Yes  | ✅ Yes     | N/A                                      |
 
 Some notes about the table above:
 
-1. ⭐⭐⭐⭐⭐ **WebdriverIO** can control all browsers, including Safari and Firefox.
-2. ⭐⭐⭐⭐⭐ Same for **Nightwatch.js**, as it is also based on WebDriver protocol.
-3. ⭐⭐⭐⭐⭐ Custom frameworks based on **Selenium WebDriver** can control all browsers, including Safari and Firefox.
-4. ⭐⭐⭐◻️◻️ **Cypress**:
+1. ⭐⭐⭐⭐⭐ For all frameworks **based on WebDriver** (**WebdriverIO**, **Nightwatch.js** and other), they can control all browsers, including Safari and Firefox. Even browsers on real mobile devices, like Safari on iOS, Samsung Internet, etc.
+2. ⭐⭐⭐◻️◻️ **Cypress**:
    - Cypress can control Chromium-based browsers (Google Chrome, Microsoft Edge, etc.), but not Safari (only experimental support on a WebKit based browser, the same used by Playwright).
    - Cypress can control Firefox via [geckodriver](https://docs.cypress.io/app/references/launching-browsers#Firefox-Browsers).
-5. ⭐⭐⭐◻️◻️ **Playwright**:
-   - Playwright supports all modern rendering engines, BUT it cannot run on a real branded Safari browser, as mentioned in [Playwright documentation](https://playwright.dev/docs/browsers#webkit). It simulates Safari with a in-house built WebKit-based browser.
+3. ⭐⭐⭐◻️◻️ **Playwright**:
+   - Playwright supports all modern rendering engines...
+   - BUT it cannot run on a real branded Safari browser, as mentioned in [Playwright documentation](https://playwright.dev/docs/browsers#webkit). It simulates Safari with a in-house built WebKit-based browser.
    - Same for Firefox, as mentioned in [Playwright documentation](https://playwright.dev/docs/browsers#firefox).
    - Playwright can control 2 branded browsers based on Chromium: Google Chrome, Microsoft Edge.
    - All its custom browsers are hosted on Microsoft's CDN, as mentioned [here](https://playwright.dev/docs/browsers#install-behind-a-firewall-or-a-proxy).
 
-## Installation 🚧
+#### 5.2.3. <a name='Supportformobilebrowsers'></a>Support for mobile browsers
+
+Cypress and Playwright do not support real mobile browsers, but they can emulate them, with special configuration.
+
+| browser               | Cypress     | Playwright                                        | Nightwatch.js / WebdriverIO / Selenium + |
+| --------------------- | ----------- | ------------------------------------------------- | ---------------------------------------- |
+| Google Chrome         | 🟠 emulated | 🟠 emulated                                       | ✅ Yes                                   |
+| Microsoft Edge        | 🟠 emulated | 🟠 emulated                                       | ✅ Yes                                   |
+| Samsung Internet      | ⭕ no       | ⭕ no                                             | ✅ Yes                                   |
+| (Apple) Safari on iOS | ⭕ no       | 🟠 emulated + [on BrowserStack\*](#PwSafariOnIOS) | ✅ Yes                                   |
+
+<a name='PwSafariOnIOS'></a>
+
+> - Note: [BrowserStack](https://www.browserstack.com/) announced (on June 12) that their cloud-based platform supports test automation with Playwright tests on real iOS devices.
+
+#### 5.2.4. <a name='Supportforoldversionsofbrowsers'></a>Support for old versions of browsers
+
+For the 5 tools, support for old versions of browsers is not guaranteed:
+
+- **Cypress**: in ["Browser versions supported"](https://docs.cypress.io/app/references/launching-browsers#Browser-versions-supported), the documentation says that "Cypress officially supports the latest 3 major versions of Chrome, Firefox, and Edge".
+- **Playwright**: each new version of Playwright, as displayed on ["the release notes"](https://playwright.dev/docs/release-notes), is compatible with the latest stable versions of Chromium, Firefox and WebKit, plus previous stable version of Chrome and Edge.
+- for the 3 others tools (**Nightwatch.js**, **WebdriverIO** and **Selenium WebDriver**), they can control **any version of the browsers**, as long as you have the right driver installed (like [chromedriver](https://www.npmjs.com/package/chromedriver) for Chrome, [geckodriver](https://www.npmjs.com/package/geckodriver) for Firefox, etc.).
+
+| browser           | Cypress                    | Playwright                                       | Nightwatch.js / WebdriverIO / Selenium + |
+| ----------------- | -------------------------- | ------------------------------------------------ | ---------------------------------------- |
+| Google Chrome     | 🟩 latest 3 major versions | 🟩 latest 2 stable channels                      | ✅ Yes, many versions                    |
+| Microsoft Edge    | 🟩 latest 3 major versions | 🟩 latest 2 stable channels                      | ✅ Yes, many versions                    |
+| (Mozilla) Firefox | 🟩 latest 3 major versions | 🟠 latest stable version (of custom Gecko-based) | ✅ Yes, many versions                    |
+| (Apple) Safari    | ⭕ none                    | 🟠 latest version of custom WebKit-based         | ✅ Yes, many versions                    |
+| IE 11             | ⭕ none                    | ⭕ none                                          | ✅ Yes                                   |
+
+## 6. <a name='Installation'></a>Installation 🚧
 
 > ⚠️ to be completed
 
-## Performance 🚧
+## 7. <a name='Performance'></a>Performance 🚧
 
 I will use our code hosted on [`testndev/web-app-testing-tools-benchmark`](https://github.com/testndev/web-app-testing-tools-benchmark/) repository for our technical benchmark.
 
 > ⚠️ to be completed
 
-## See also
+## 8. <a name='Seealso'></a>See also
 
 There is many articles that compare web-app test automation frameworks (especially Selenium vs Cypress vs Playwright since 2022), presenting their features, trade-offs, etc.
 
@@ -233,8 +276,7 @@ You can read for example:
 - ["Selenium Vs … blog posts"](https://www.selenium.dev/blog/2024/selenium-vs-blog-posts/)
   > in english, 09/01/2024, by [David Burns @AutomatedTester](https://twitter.com/automatedtester)
 
-## Conclusion
-
+## 9. <a name='Conclusion'></a>Conclusion
 
 In this article, I presented a benchmark of 5 popular open-source tools for web-applications testing: Cypress, Nightwatch.js, Playwright, Selenium WebDriver and WebdriverIO.
 
